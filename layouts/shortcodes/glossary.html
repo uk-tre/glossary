@@ -19,21 +19,21 @@
   {{ range $row := after 1 $data }}
   {{- $term := index $row 1 }}
   {{- $tag := index $row 2 }}
-  {{- $definition := index $row 3 | htmlEscape }}
+  {{- $definition := index $row 3 }}
   <!-- https://discourse.gohugo.io/t/loop-through-a-list-of-string-ids/33715/2 -->
 
   {{- $crossrefs := findRE `\[[^]]+\]` $definition }}
   {{- range $crossrefs }}
     {{- $target_term := trim . "[]" }}
     {{- $link_target := printf "#term-%s" ( $target_term | anchorize ) }}
-    {{- $link_html := printf `<a href="%s">[%s]</a>` $link_target $target_term }}
-    {{- $definition = replace $definition . $link_html }}
+    {{- $link_md := printf `[%s](%s)` $target_term $link_target }}
+    {{- $definition = replace $definition . $link_md }}
   {{- end }}
 
   <tr>
     <td id="term-{{ $term | anchorize }}"><a href="#term-{{ $term | anchorize }}">{{ $term }}</td>
     <td>{{ $tag }}</td>
-    <td>{{ $definition | safeHTML }}</td>
+    <td>{{ $definition | markdownify }}</td>
   </tr>
   {{ end }}
 </table>
