@@ -1,0 +1,41 @@
+{{ $filename := .Get "glossary_csv" }}
+{{ $data := getCSV "," (path.Join "static" $filename) }}
+
+{{/*
+  Split CSV into separate tables, based on the section column.
+  Each table repeats the header row.
+*/}}
+
+{{ $header := index $data 0 }}
+<!-- _,Term,Tag,Definition,... -->
+
+<table>
+  <tr>
+    {{- range first 3 (after 1 $header) }}
+    <th>{{ . }}</th>
+    {{- end }}
+  </tr>
+
+  {{ range $row := after 1 $data }}
+  {{- $term := index $row 1 }}
+  {{- $tag := index $row 2 }}
+  {{- $definition := index $row 3 | htmlEscape }}
+  <!-- https://discourse.gohugo.io/t/loop-through-a-list-of-string-ids/33715/2 -->
+
+  {{- $crossrefs := findRE `\[[^]]+\]` $definition }}
+  {{- range $crossrefs }}
+    {{- $target_term := trim . "[]" }}
+    {{- $link_target := printf "#term-%s" ( $target_term | anchorize ) }}
+    {{- $link_html := printf `<a href="%s">[%s]</a>` $link_target $target_term }}
+    {{- $definition = replace $definition . $link_html }}
+  {{- end }}
+
+  <tr>
+    <td id="term-{{ $term | anchorize }}"><a href="#term-{{ $term | anchorize }}">{{ $term }}</td>
+    <td>{{ $tag }}</td>
+    <td>{{ $definition | safeHTML }}</td>
+  </tr>
+  {{ end }}
+</table>
+
+<a class="right-8" aria-label="Download" href="{{ $filename | relURL }}">{{- $filename -}}&nbsp;&#x21D3;</a>
