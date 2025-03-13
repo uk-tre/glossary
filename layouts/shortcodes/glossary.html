@@ -1,5 +1,6 @@
 {{ $filename := .Get "glossary_csv" }}
-{{ $data := getCSV "," (path.Join "static" $filename) }}
+{{ $csv := resources.Get $filename }}
+{{ $data := transform.Unmarshal $csv }}
 
 {{/*
   Split CSV into separate tables, based on the section column.
