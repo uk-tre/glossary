@@ -1,5 +1,6 @@
-+++
-title = 'UK TRE Glossary'
-+++
-
-{{< glossary glossary_csv="uk-tre-glossary.csv" >}}
+---
+layout: redirect
+title: Redirect to latest version of glossary
+redirect_delay: 0
+destination: v0/
+---
