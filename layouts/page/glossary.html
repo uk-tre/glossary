@@ -1,5 +1,8 @@
-{{ $filename := .Get "glossary_yaml" }}
-{{ $data := resources.Get $filename | transform.Unmarshal }}
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+{{- .Content -}}
+
+{{ $data := resources.Get .Params.glossary_yaml | transform.Unmarshal }}
 
 <table>
   <tr>
@@ -30,4 +33,8 @@
   {{ end }}
 </table>
 
-<a class="right-8" aria-label="Download" href="{{ $filename | relURL }}">{{- $filename -}}&nbsp;&#x21D3;</a>
+
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+
+{{- end -}}
