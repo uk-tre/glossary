@@ -13,8 +13,10 @@ glossary = df.replace(np.nan, None).apply(lambda r: {
         "tags": [r["Context/Tag/Category"]] if r["Context/Tag/Category"] else [],
         "definition": LiteralScalarString(r["Definition"]),
     }, axis=1)
+glossary = list(glossary)
 
-glossary_terms = {"glossary": list(glossary)}
+categories = sorted(set(t for r in glossary for t in r["tags"]))
+glossary_terms = {"categories": categories, "glossary": glossary}
 
 yaml = YAML()
 yaml.indent(mapping=2, sequence=4, offset=2)

@@ -1,3 +1,25 @@
+version: "v0"
+
+categories:
+  - Analysis
+  - Computing
+  - Data Management
+  - Data in General
+  - Data in general
+  - Health Research
+  - Health Services & Health Data
+  - Identifiability
+  - Management
+  - Other
+  - Processes
+  - Research Management
+  - Risk Management
+  - Running and Overseeing Research
+  - Running and overseeing research
+  - Security Management
+  - Services
+  - Special aspects in the NHS Context
+  - UK law and rules
 glossary:
   - term: AAI
     tags:
