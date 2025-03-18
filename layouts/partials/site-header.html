@@ -1,0 +1,9 @@
+<header>
+  <div><a href="{{ absURL "" }}"><h1>{{ .Site.Title }}</h1></a></div>
+  {{- with .Site.Params.github_repository -}}
+  <div><a href="{{ . }}" class="github"><i class="fab fa-github"></i></a></div>
+  {{- end -}}
+{{ with .Site.Params.description }}
+<p class="description">{{ . }}</p>
+{{end}}
+</header>
