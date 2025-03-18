@@ -18,7 +18,7 @@
     "path" .
     "title" (print "UK TRE Glossary " $data.version ": " .)
     "layout" "glossary"
-    "params" (dict "glossary_yaml" $glossary_yaml "glossary_category" .)
+    "params" (dict "glossary_yaml" $glossary_yaml "glossary_category" . "category_basepath" "../")
   }}
   {{ $.AddPage $page }}
 

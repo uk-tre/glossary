@@ -6,6 +6,7 @@
 
 {{ $data := resources.Get .Params.glossary_yaml | transform.Unmarshal }}
 {{ $category := .Params.glossary_category }}
+{{ $category_basepath := .Params.category_basepath }}
 
 <table>
   <tr>
@@ -50,7 +51,7 @@
       <td id="term-{{ $term | anchorize }}"><a href="#term-{{ $term | anchorize }}">{{ $term }}</a></td>
       <td>
         {{- range $tags -}}
-          <a href="{{ . | urlize }}">{{ . }}</a>
+          <a href="{{ $category_basepath }}{{ . | urlize }}">{{ . }}</a>
         {{- end -}}
       </td>
       <td>{{ $definition | markdownify }}</td>
