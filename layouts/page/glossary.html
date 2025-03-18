@@ -2,6 +2,8 @@
 <h1>{{ .Title }}</h1>
 {{- .Content -}}
 
+<a href="{{ absURL "" }}"><i class="fas fa-home"></i></a>
+
 {{ $data := resources.Get .Params.glossary_yaml | transform.Unmarshal }}
 {{ $category := .Params.glossary_category }}
 

@@ -1,3 +1,20 @@
+header h1 {
+  color: white;
+}
+
+header a:hover h1 {
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 th, td {
   vertical-align: top;
+}
+
+table {
+  max-width: 80em;
 }

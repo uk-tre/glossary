@@ -3,3 +3,8 @@ languageCode = 'en-gb'
 title = 'UK TRE Glossary'
 theme = 'techdoc'
 description = 'UK TRE Glossary'
+
+[params]
+github_repository = 'https://github.com/manics/uktre-glossary'
+# Disable sidebar
+menu_style = ''
