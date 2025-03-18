@@ -1,26 +1,17 @@
-{{ $filename := .Get "glossary_csv" }}
-{{ $csv := resources.Get $filename }}
-{{ $data := transform.Unmarshal $csv }}
-
-{{/*
-  Split CSV into separate tables, based on the section column.
-  Each table repeats the header row.
-*/}}
-
-{{ $header := index $data 0 }}
-<!-- _,Term,Tag,Definition,... -->
+{{ $filename := .Get "glossary_yaml" }}
+{{ $data := resources.Get $filename | transform.Unmarshal }}
 
 <table>
   <tr>
-    {{- range first 3 (after 1 $header) }}
-    <th>{{ . }}</th>
-    {{- end }}
+    <th>Term</th>
+    <th>Tags</th>
+    <th>Definition</th>
   </tr>
 
-  {{ range $row := after 1 $data }}
-  {{- $term := index $row 1 }}
-  {{- $tag := index $row 2 }}
-  {{- $definition := index $row 3 }}
+  {{- range $data.glossary }}
+  {{- $term := .term }}
+  {{- $tag := .tags }}
+  {{- $definition := .definition }}
   <!-- https://discourse.gohugo.io/t/loop-through-a-list-of-string-ids/33715/2 -->
 
   {{- $crossrefs := findRE `\[[^]]+\]` $definition }}
