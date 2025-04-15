@@ -4,14 +4,31 @@
 #
 #    pip-compile
 #
+babel==2.17.0
+    # via mkdocs-material
+backrefs==5.8
+    # via mkdocs-material
+certifi==2025.1.31
+    # via requests
+charset-normalizer==3.4.1
+    # via requests
 click==8.1.8
     # via mkdocs
+colorama==0.4.6
+    # via mkdocs-material
 ghp-import==2.1.0
     # via mkdocs
+idna==3.10
+    # via requests
 jinja2==3.1.6
-    # via mkdocs
+    # via
+    #   mkdocs
+    #   mkdocs-material
 markdown==3.8
-    # via mkdocs
+    # via
+    #   mkdocs
+    #   mkdocs-material
+    #   pymdown-extensions
 markupsafe==3.0.2
     # via
     #   jinja2
@@ -23,10 +40,15 @@ mergedeep==1.3.4
 mkdocs==1.6.1
     # via
     #   -r requirements.in
+    #   mkdocs-material
     #   mkdocs-table-reader-plugin
     #   mkdocs-uktre-glossary-plugin
 mkdocs-get-deps==0.2.0
     # via mkdocs
+mkdocs-material==9.6.11
+    # via -r requirements.in
+mkdocs-material-extensions==1.3.1
+    # via mkdocs-material
 mkdocs-table-reader-plugin==3.1.0
     # via mkdocs-uktre-glossary-plugin
 mkdocs-uktre-glossary-plugin @ git+https://github.com/manics/mkdocs-uktre-glossary-plugin.git@7b33eba35ec0610241a9145b46cfa59d6cb01cce
@@ -35,6 +57,8 @@ numpy==2.2.4
     # via pandas
 packaging==24.2
     # via mkdocs
+paginate==0.5.7
+    # via mkdocs-material
 pandas==2.2.3
     # via
     #   mkdocs-table-reader-plugin
@@ -43,6 +67,10 @@ pathspec==0.12.1
     # via mkdocs
 platformdirs==4.3.7
     # via mkdocs-get-deps
+pygments==2.19.1
+    # via mkdocs-material
+pymdown-extensions==10.14.3
+    # via mkdocs-material
 python-dateutil==2.9.0.post0
     # via
     #   ghp-import
@@ -55,9 +83,12 @@ pyyaml==6.0.2
     #   mkdocs-get-deps
     #   mkdocs-table-reader-plugin
     #   mkdocs-uktre-glossary-plugin
+    #   pymdown-extensions
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
+requests==2.32.3
+    # via mkdocs-material
 six==1.17.0
     # via python-dateutil
 tabulate==0.9.0
@@ -66,5 +97,7 @@ tabulate==0.9.0
     #   mkdocs-uktre-glossary-plugin
 tzdata==2025.2
     # via pandas
+urllib3==2.4.0
+    # via requests
 watchdog==6.0.0
     # via mkdocs

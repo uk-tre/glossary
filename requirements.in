@@ -1,2 +1,3 @@
 git+https://github.com/manics/mkdocs-uktre-glossary-plugin.git@7b33eba35ec0610241a9145b46cfa59d6cb01cce
 mkdocs
+mkdocs-material
