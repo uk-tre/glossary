@@ -1,5 +1,3 @@
-version: "v0"
-
 categories:
   - Analysis
   - Computing
@@ -17,7 +15,6 @@ categories:
   - Running and Overseeing Research
   - Running and overseeing research
   - Security Management
-  - Services
   - Special aspects in the NHS Context
   - UK law and rules
 glossary:
@@ -37,7 +34,7 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      [See also: Administrative data in https://www.adruk.org/learning-hub/glossary/] 
+      See also: Administrative data in https://www.adruk.org/learning-hub/glossary/
   - term: Algorithm
     tags:
       - Computing
@@ -48,7 +45,7 @@ glossary:
       - Computing
     definition: |-
       Also Data Analysis. Techniques that produce knowledge from organised information. Processes of inspecting, cleaning, transforming, and modelling data with the goal of highlighting useful information, suggesting conclusions and supporting decision making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, in different business, science, and social science domains.
-      [See also: Data Analysis in https://terms.codata.org/rdmt/data-analysis] 
+      See also: Data Analysis in https://terms.codata.org/rdmt/data-analysis
   - term: Anonymisation
     tags:
       - Identifiability
@@ -111,7 +108,9 @@ glossary:
     tags:
       - Computing
     definition: |-
-      None
+      Authorisation is a process of verifying that a person or other agent can legitimately take some action, such as gaining access to a dataset, editing a document, entering a building or making a payment. An administrative authority must determine whether there are sufficient grounds for authorising the action. Authorisation is often shortened to "AuthZ" to disntinguish it from authentication.
+      See also: [AAI]; [Access Control]; [Authentication].
+      See also: Authorisation in https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-A_79.xml 
   - term: Best Practice
     tags:
       - Processes
@@ -191,7 +190,7 @@ glossary:
     tags:
       - Security Management
     definition: |-
-      [Related to Compliance, https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-C_42.xml]
+      Related to Compliance in https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-C_42.xml
   - term: Consent
     tags:
       - Processes
@@ -217,20 +216,20 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_3.xml]
-      [See also: https://terms.codata.org/rdmt/data]
-      [See also: https://www.nice.org.uk/Glossary?letter=D]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_3.xml
+      See also: https://terms.codata.org/rdmt/data
+      See also: https://www.nice.org.uk/Glossary?letter=D
   - term: Data Archiving *
     tags:
       - Data Management
     definition: |-
       The practice of securely storing and preserving data in a read-only format for long-term retention, typically for compliance, historical reference, or reproducibility. 
-      [See also: https://vocabs.ardc.edu.au/repository/api/lda/codata/codata-research-data-management-terminology/v001/resource?uri=https%3A%2F%2Fterms.codata.org%2Frdmt%2Fresearch-data-management]
+      See also: https://vocabs.ardc.edu.au/repository/api/lda/codata/codata-research-data-management-terminology/v001/resource?uri=https%3A%2F%2Fterms.codata.org%2Frdmt%2Fresearch-data-management
   - term: Data Classification *
     tags:
       - Data Management
     definition: |-
-      The categorisation or labelling of data based on its sensitivity, risk, value, or other attributes, often used to determine appropriate handling, storage, and security controls.
+      None
   - term: Data Controller
     tags:
       - UK law and rules
@@ -238,16 +237,16 @@ glossary:
       A data controller is a person or organisation who decides how personal data, which is information about identifiable individuals, is used or handled. Examples of data controllers include NHS organisations like Trusts and GP surgeries. In the UK, most organisations handling personal data must register with the ICO (Information Commissioner's Office), and their details are public. Data controllers are legally responsible for how data is managed. They must prevent misuse, report breaches, and can be fined for failing to meet these duties.
 
       See also: data processor, Information Commissioner's Office (ICO) 
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_16.xml]
-      [See also: https://www.adruk.org/learning-hub/glossary/]
-      [See also: https://www.nice.org.uk/Glossary?letter=D]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_16.xml
+      See also: https://www.adruk.org/learning-hub/glossary/
+      See also: https://www.nice.org.uk/Glossary?letter=D
   - term: Data Curation
     tags:
       - Data in general
     definition: |-
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_17.xml ]
-      [See also: https://terms.codata.org/rdmt/data-curation ]
-      [See also: https://www.nice.org.uk/Glossary?letter=D ]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_17.xml
+      See also: https://terms.codata.org/rdmt/data-curation
+      See also: https://www.nice.org.uk/Glossary?letter=D
   - term: Data Custodian
     tags:
       - Data Management
@@ -292,18 +291,18 @@ glossary:
     tags:
       - Data Management
     definition: |-
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml
   - term: Data Mining
     tags:
       - Data in general
     definition: |-
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_47.xml]
-      [See also: https://terms.codata.org/rdmt/data-mining]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_47.xml
+      See also: https://terms.codata.org/rdmt/data-mining
   - term: Data Pooling
     tags:
       - Data Management
     definition: |-
-      [See also: https://www.nice.org.uk/Glossary?letter=D]
+      See also: https://www.nice.org.uk/Glossary?letter=D
   - term: Data Processor
     tags:
       - UK law and rules
@@ -323,7 +322,7 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      A professional responsible for ensuring that organizations comply with data protection laws when handling personal data. They advise on data privacy practices, monitor compliance, and act as a point of contact for data protection authorities. Organizations processing large amounts of personal data or those in the public sector are required to appoint a DPO, and they are listed on the public register held by the Information Commissioner's Office (ICO)
+      A professional responsible for ensuring that organizations comply with data protection laws when handling personal data. They advise on data privacy practices, monitor compliance, and act as a point of contact for data protection authorities. Organizations processing large amounts of personal data or those in the public sector are required to appoint a DPO, and they are listed on the public register held by the [Information Commissioner's Office (ICO)]
   - term: Data Science
     tags:
       - Data in general
@@ -333,37 +332,37 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      [See also https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_79.xml]
+      See also https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_79.xml
   - term: Data Transfer Agreement
     tags:
       - UK law and rules
     definition: |-
       A Data Transfer Agreement is an agreement or contract between a data controller and another organisation (such as a data processor), governing the transfer of data.
       See also: [Data Controller], [Data Processor].
-      [Related: Data Transfer, see https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml]
+      Related to: Data Transfer, see https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml
   - term: Data Transfer Service
     tags:
       - Data Management
     definition: |-
       A service or system that facilitates the secure and efficient transfer of data between different systems, networks, or locations.
-      [Related: Data Transfer, see https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml and https://w3id.org/shp#DataTransfer]
+      Related to: Data Transfer, see https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml and https://w3id.org/shp#DataTransfer
   - term: Data Users
     tags:
       - Data in general
     definition: |-
-      [See also https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_85.xml]
+      See also https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_85.xml
   - term: Database
     tags:
       - Data in general
     definition: |-
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_8.xml]
-      [See also: https://terms.codata.org/rdmt/database]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_8.xml
+      See also: https://terms.codata.org/rdmt/database
   - term: De-identification
     tags:
       - Identifiability
     definition: |-
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_101.xml]
-      [See also: https://terms.codata.org/rdmt/de-identification]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_101.xml
+      See also: https://terms.codata.org/rdmt/de-identification
   - term: Desktop
     tags:
       - Computing
@@ -378,8 +377,8 @@ glossary:
     tags: []
     definition: |-
       The process of review by approved staff at a Trusted Research Environment (TRE) of any research or analysis results prior to their release from the TRE. The aim of disclosure control is to ensure there are no risks of identifying individuals in any released research results.
-      [Related to: Disclosure Control Methods https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_142.xml] 
-      [Related to: Disclosure Check https://w3id.org/shp#DisclosureCheck] 
+      Related to: Disclosure Control Methods https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_142.xml
+      Related to: Disclosure Check https://w3id.org/shp#DisclosureCheck
   - term: Egress/Ingress Control
     tags:
       - Security Management
@@ -416,9 +415,8 @@ glossary:
       Interoperable: Can work across different systems and with other datasets
       Reusable: Well-documented and properly licensed so others can use it
 
-      [see also CODATA definition https://terms.codata.org/rdmt/fair-data], see also separate definitions for each FAIR, Findable: https://terms.codata.org/rdmt/findable, Accessible: https://terms.codata.org/rdmt/accessibility, Interoperable: https://terms.codata.org/rdmt/interoperable, Reusable: https://terms.codata.org/rdmt/reusable]
-
-      [see also DPDPIS definition https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_3.xml, see also separate definition of Accessibilty: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-A_4.xml, Interoperability: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_65.xml, no definitions for Findable or Reusable]
+      See also: https://terms.codata.org/rdmt/fair-data
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_3.xml
   - term: Federation
     tags:
       - Processes
@@ -439,12 +437,12 @@ glossary:
     tags:
       - Computing
     definition: |
-      [see also DPDPIS definition: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml
   - term: Federated Learning
     tags:
       - Computing
     definition: |-
-      [see also DPDPIS definition: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml
   - term: Federation Operator
     tags:
       - Management
@@ -460,28 +458,30 @@ glossary:
       - Security Management
     definition: |-
       A security device—either hardware, software, or a combination of both—that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Its primary purpose is to establish a barrier between a trusted, secure internal network and untrusted external networks, like the internet, to protect against unauthorized access, cyberattacks, and other potential threats.
-      [see also DPDPIS definition: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_23.xml]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_23.xml
   - term: Five Safes
     tags:
       - Processes
     definition: |-
       The Five Safes framework is a set of principles developed to guide researchers and organizations in handling sensitive data.
-      [See also DPDPIS definition: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_26.xml] 
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_26.xml
   - term: Graphical User Interface (GUI)
     tags: []
     definition: |-
-      A way of interacting with a computer system based on visual presentations of documents, applications and so on as windows on a screen. Users interact with a GUI using pointing devices (e.g. a mouse or a finger) rather than having to type everything. Contrast with [Command Line Interface].
+      A way of interacting with a computer system based on visual presentations of documents, applications and so on as windows on a screen. Users interact with a GUI using pointing devices (e.g. a mouse or a finger) rather than having to type everything. 
+      Contrast with [Command Line Interface].
   - term: Identifiable Data
     tags:
       - Identifiability
     definition: |-
       Data that can be used to identify, contact, or locate a specific individual, either by itself or when combined with other available information. This includes direct identifiers like full names, NHS numbers, and email addresses; indirect identifiers such as date of birth or workplace that could identify someone when combined; and context-dependent identifiers like IP addresses or device IDs. For example, while a person's age alone might not identify them, combining it with their job title and city of residence could make them identifiable – such as "a 45-year-old pediatric surgeon in Bolton, Greater Manchester" might be specific enough to identify a particular individual, even without naming them directly. This type of data requires special handling under various privacy regulations like GDPR to protect individuals' privacy and prevent unauthorized access or misuse.
-      [See also CODATA: https://terms.codata.org/rdmt/direct-identifier and https://terms.codata.org/rdmt/indirect-identifier ; DPDPIS: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml]
+      See also: https://terms.codata.org/rdmt/direct-identifier and https://terms.codata.org/rdmt/indirect-identifier
+      See alos: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml
   - term: Identity and Access Management Services
     tags:
       - Security Management
     definition: |-
-      [see also DPDPIS: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml
   - term: Identity Verification
     tags:
       - Security Management
@@ -502,7 +502,7 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      Information Governance (IG) is how an organisation takes care of its information or data. It involves strategies and processes for defining, collecting, storing, securing, using, protecting and disposing of data safely, while also respecting privacy. IG ensures that data is managed well throughout its life cycle, following guidelines and laws. It helps organisations handle data responsibly, protect it from risks, and use it in a way that follows rules and keeps people's information safe.
+      How an organisation takes care of its information or data. It involves strategies and processes for defining, collecting, storing, securing, using, protecting and disposing of data safely, while also respecting privacy. IG ensures that data is managed well throughout its life cycle, following guidelines and laws. It helps organisations handle data responsibly, protect it from risks, and use it in a way that follows rules and keeps people's information safe.
       Information governance also identifies the processes to be followed in the event of a failure to protect personal data, and any reporting, or escalation to regulatory bodies if necessary,.
   - term: Internal Audit
     tags:
@@ -514,7 +514,7 @@ glossary:
       - Computing
     definition: |-
       The ability of two or more systems, devices, or applications to exchange and use information seamlessly. Interoperability enables these systems to work together, often through the adoption of open standards, that facilitate consistent communication and data sharing without requiring custom intergration. Good interoperability promotes collaboration, scalability, and the extension of services by allowing different systems to work together in a standarised, vendor-neutral way, thereby reducing techinal and operational barriers.
-      See also [https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_65.xml]
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_65.xml
   - term: Issue Management Process
     tags:
       - Computing
@@ -531,7 +531,7 @@ glossary:
       - UK law and rules
     definition: |-
       On 25 May 2018 the General Data Protection Regulation (“GDPR”) came into force. From this date, you must have a defined lawful basis to hold and use ‘personal data’. The Health Research Authority (HRA) and Information Commissioner’s Office (ICO) advise that for almost all research conducted in the UK organisations should rely on either: (1) ‘Task in public interest’ – for all public bodies (NHS / HSC, Universities, UKRI etc), or (2) ‘Legitimate interest’ – for non-public bodies (charities etc.)
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-L_3.xml] 
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-L_3.xml
   - term: Linkage of data (data linkage)
     tags:
       - Processes
@@ -549,7 +549,7 @@ glossary:
     definition: |-
       A computer programming technique particularly suited to identifying patterns or rules in large amounts of data. Rather than beginning with a fixed set of rules, an ML program builds up  ("learns") a set of likely rules by processing many example datasets (this stage of ML is known as "training"). When the set of likely rules is complete, the ML program can apply them to new datasets and offer a likely prediction (this stage is known as "inference").
       For example: an ML program trained to recognise car numberplates would be trained on many pictures of car numberplates, building up a set of likely rules that will enable to program to "recognise" car numberplates in the future.
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-M_2.xml] 
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-M_2.xml
   - term: Malware Scanning Application
     tags:
       - Security Management
@@ -649,15 +649,12 @@ glossary:
     tags:
       - Identifiability
     definition: |-
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml]
-
-
-      ICO guidance on anonymisation and psuedonymisation https://ico.org.uk/media/1061/anonymisation-code.pdf
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml
+      See also: https://ico.org.uk/media/1061/anonymisation-code.pdf
   - term: Public Benefit
     tags:
       - Health Research
     definition: |
-      Adapted from ADR UK & DM: 
       Also known as ‘public good’, research or activity which is motivated by its benefit to society. This work often aims to provide evidence for public policies, services or decisions to ultimately improve lives.
       Example: health data research to learn more about the causes, characteristics, or effects of a disease or condition, and how to best treat it, to improve health and care of patients and the public.
   - term: Public Cloud
@@ -669,7 +666,6 @@ glossary:
     tags:
       - Processes
     definition: |-
-      Adapted from NIHR & DM: 
       Communicating the findings of a research project or project information with the general public.
   - term: Qualitative Analysis
     tags:
@@ -692,63 +688,30 @@ glossary:
       - Data in general
     definition: |-
       An organised collectiom of data, where data are related to each other in a systematic manner so that they can be reorganised and accessed in a number of different ways. A relational database may house one or many datasets.
-      [See also: https://vocabs.ardc.edu.au/repository/api/lda/codata/codata-research-data-management-terminology/v001/resource?uri=https%3A%2F%2Fterms.codata.org%2Frdmt%2Fdatabase] 
+      See also: https://vocabs.ardc.edu.au/repository/api/lda/codata/codata-research-data-management-terminology/v001/resource?uri=https%3A%2F%2Fterms.codata.org%2Frdmt%2Fdatabase
   - term: Research Approvals
     tags:
       - Running and overseeing research
     definition: |-
       All research that involves data from individuals must get approval from an authorised body. For research with NHS data, for example, this would be the NHS Research Ethics Committee (REC). Approvals committees often include both researchers and members of the public, and their job is to make sure that the research is planned and conducted in a fair and ethical way and that it benefits the public.
-  - term: Re-identification Risk Assessment Tooling *
-    tags:
-      - Risk Management
-    definition: |-
-      Too specific - remove?
-  - term: Repository Management
-    tags:
-      - Computing
-    definition: |-
-      Overy techie?
-  - term: Requirements Gathering and Monitoring *
-    tags:
-      - Computing
-    definition: |-
-      Too generic, remove?
   - term: Researcher(s) *
     tags:
       - Other
     definition: |-
       Individuals or groups who utilise and analyse data for research purposes or as part of their work, such as scientists, analysts, or other professionals.
-  - term: Resource Allocation
-    tags:
-      - Management
-    definition: |-
-      Too generic, remove?
   - term: Risk Assessment
     tags:
       - Risk Management
     definition: |-
       The systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
-      [See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-R_69.xml]
-  - term: Risk Ownership
-    tags:
-      - Risk Management
-    definition: |-
-      Too specific - remove?
-  - term: Risk Treatment
-    tags:
-      - Risk Management
-    definition: |-
-      Too specific - remove?
-  - term: RNA sequencing
-    tags:
-      - Health Research
-    definition: |-
-      Discipline-specific - remove?
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-R_69.xml
   - term: Routinely Collected Data
     tags:
       - Health Services & Health Data
     definition: |-
-      Either remove (health-discipline specific) or keep but make agnostic to discipline?
+      Data, often about people, collected by health, social, or school services during their everyday tasks, like doctor visits or school days. This is also known as "routinely collected data" or "real-world data."
+      This data is not specifically gathered for research purposes. 
+      For example routinely collected health data includes details about a patient's medical history, diagnoses, treatments, medications, etc. 
   - term: Sensitive Data
     tags:
       - Data in general
@@ -758,55 +721,15 @@ glossary:
       Commercial data such as retail information, business details, IP (intellectual property) and Copyright information or confidential product details is also be considered sensitive data.
 
       Data sensitivity is be classified at an institutional level within policy documents (e.g. highly confidential, confidential, not classified) with handling requirements and placed on the different levels of confidetiality required. See [Personal Data]
-  - term: Service Delivery *
-    tags:
-      - Management
-    definition: |-
-      Too specific - remove?
-  - term: Session Virtualization
-    tags:
-      - Computing
-    definition: |-
-      Too generic, remove?
-  - term: SMI
-    tags:
-      - Health Services & Health Data
-    definition: |-
-      Discipline-specific - remove
   - term: Socio-demographic factors
     tags: []
     definition: |-
       Characteristics of individuals or populations related to social and demographic aspects such as age, gender, ethnicity, socioeconomic status, and education level.
-  - term: Software Request Process
-    tags:
-      - Computing
-    definition: |-
-      Too generic, remove?
-  - term: SSRI
-    tags:
-      - Health Services & Health Data
-    definition: |-
-      Discipline-specific - remove
-  - term: Stakeholders
-    tags:
-      - Health Services & Health Data
-    definition: |-
-      Not sure if relevant
   - term: Statistical Disclosure Control
     tags:
       - Identifiability
     definition: |-
       The process of ensuring data such as analysis results that are being taken out of a TRE are properly anonymised to ensure no-one can figure out the identity of specific individuals.
-  - term: Statistics
-    tags:
-      - Analysis
-    definition: |-
-      Too generic, remove?
-  - term: Structured fields
-    tags:
-      - Health Services & Health Data
-    definition: |-
-      Sections in electronic records where specific information is organised and categorised in a way that makes it easier to analyse. These fields are designed to store data in a standardised format, making it more accessible and consistent for both practitioners (e.g. professionals using the data for their day-to-day roles, such as medical or government professionals) as well as for researchers.
   - term: Structured Query Language (SQL)
     tags:
       - Computing
@@ -823,17 +746,6 @@ glossary:
       - Research Management
     definition: |-
       The formal conclusion of a research study or project, including final data analysis, reporting, documentation, and archiving.
-  - term: Study Management Portal *
-    tags:
-      - Research Management
-    definition: |-
-      An online platform or system that provides centralised access to manage research studies, including onboarding studies, control of access, and administration of compliance tasks .
-  - term: Study Manager *
-    tags:
-      - Research Management
-    definition: |-
-      An individual responsible for overseeing and managing a research study or project, including planning, execution, coordination, and reporting.
-      The study manager is often the point of contact for issues or queries during a clinical trial, such as resolving any problems participants face.
   - term: Study Onboarding *
     tags:
       - Research Management
@@ -859,37 +771,11 @@ glossary:
       - Computing
     definition: |-
       The process of examining and understanding written information, like electronic health records or other text-based content, to find important and useful insights. It involves analysing the text to identify patterns, trends, or valuable information that can be used for various purposes, such as research or decision-making.
-  - term: Top Management
-    tags:
-      - Management
-    definition: |-
-      Too generic?
-      SL: IIRC this is an iso27001 term, so may be worth keeping?
-  - term: Training Needs Analysis
-    tags:
-      - Other
-    definition: |-
-      Too generic?
-  - term: Training Records
-    tags:
-      - Other
-    definition: |-
-      Too generic?
-  - term: Treatment response
-    tags:
-      - Health Research
-    definition: |-
-      Discipline-specific - remove?
   - term: Trusted Research Environment (TRE)
     tags:
       - Processes
     definition: |-
-      TREs are a class of computer systems which enable researchers to access sensitive datasets across administrative boundaries whilst ensuring that overall control of the data stays with appropriate governance authorities. TREs include Secure Data Environments (SDEs) in the National Health Service in England, Safe Havens in Scotland, processing environments as defined in the Digital Economy Act 2017 (DEA) and Secure Processing Environments as defined in European Health Data Space legislation. TREs are typically operated according to information governance practices and processes modelled on the [Five Safes] approach developed by the Office for National Statistics (ONS). 
-  - term: TRE Implementer
-    tags:
-      - Services
-    definition: |-
-      Too specific
+      A class of computer systems which enable researchers to access sensitive datasets across administrative boundaries whilst ensuring that overall control of the data stays with appropriate governance authorities. TREs include Secure Data Environments (SDEs) in the National Health Service in England, Safe Havens in Scotland, processing environments as defined in the Digital Economy Act 2017 (DEA) and Secure Processing Environments as defined in European Health Data Space legislation. TREs are typically operated according to information governance practices and processes modelled on the [Five Safes] approach developed by the Office for National Statistics (ONS). 
   - term: TRE Infrastructure
     tags:
       - Computing
@@ -923,14 +809,10 @@ glossary:
     tags:
       - Computing
     definition: |-
-      The process of introducing and integrating Users into an organisations systems and processes. It helps people understand features and learn how to use something effectively. For example, when you download a new app, there is often a step-by-step tutorial on how to make the most of the software.
+      The process of introducing and integrating users into an organisations systems and processes. It helps people understand features and learn how to use something effectively. For example, when you download a new app, there is often a step-by-step tutorial on how to make the most of the software.
   - term: Variable
     tags:
       - Data in general
     definition: |-
       A variable is any characteristic, number, or quantity that is represented in a dataset for each observation. In data analysis,a variable is a symbolic name to represent different types of information in datasets. For example, date of birth is a variable representing when a person was born.
       See also: [Characteristic]
-  - term: Workflow
-    tags: []
-    definition: |-
-      I think the term is too generic and we should remove this. If we want to keep it the term should be "Computational Workflow"

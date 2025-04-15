@@ -1,0 +1,8 @@
+site_name: UK TRE Glossary
+
+plugins:
+  - uktre-glossary:
+      data_path: "assets"
+
+theme:
+  name: material
