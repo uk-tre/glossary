@@ -19,8 +19,9 @@ def _slugify(s: str):
     return re.sub(r"\W", "-", s.lower())
 
 def link_urls(s: str):
-    trailing_punctuation = re.escape(".,!?)]}>'\"")
-    s = re.sub(rf"(https?://[\S]+[^{trailing_punctuation}])", r"[\1](\1)", s)
+    trailing_punctuation = ".,!?)]}>'\""
+    s = re.sub(rf"(https?://[\S]+)", r"[\1](\1)", s)
+    s.rstrip(trailing_punctuation)
     return s
 
 def _crossref_terms(text, parent):
@@ -77,7 +78,14 @@ def to_glossary_html(df, category="", **kwargs):
             parent = ""
 
         crossreferenced = _crossref_terms(link_urls(row.definition), parent)
-        definition = markdown(escape(crossreferenced))
+        # Convert markdown to HTML
+        definition = markdown(
+            # Escape HTML chars
+            escape(
+                # Treat single line break as paragraph break
+                crossreferenced.replace("\n", "\n\n")
+            )
+        )
 
         row = f"""
         <tr>
