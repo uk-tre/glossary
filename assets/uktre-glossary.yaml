@@ -288,18 +288,18 @@ glossary:
     tags:
       - Data Management
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml
   - term: Data Mining
     tags:
       - Data in general
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_47.xml
-      See also: https://terms.codata.org/rdmt/data-mining
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_47.xml
+      See: https://terms.codata.org/rdmt/data-mining
   - term: Data Pooling
     tags:
       - Data Management
     definition: |-
-      See also: https://www.nice.org.uk/Glossary?letter=D
+      See: https://www.nice.org.uk/Glossary?letter=D
   - term: Data Processor
     tags:
       - UK law and rules
@@ -329,37 +329,38 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      See also https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_79.xml
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_79.xml
   - term: Data Transfer Agreement
     tags:
       - UK law and rules
     definition: |-
       A Data Transfer Agreement is an agreement or contract between a data controller and another organisation (such as a data processor), governing the transfer of data.
       See also: [Data Controller], [Data Processor].
-      Related to: Data Transfer, see https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml 
   - term: Data Transfer Service
     tags:
       - Data Management
     definition: |-
       A service or system that facilitates the secure and efficient transfer of data between different systems, networks, or locations.
-      Related to: Data Transfer, see https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml and https://w3id.org/shp#DataTransfer
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml 
+      See also: https://w3id.org/shp#DataTransfer
   - term: Data Users
     tags:
       - Data in general
     definition: |-
-      See also https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_85.xml
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_85.xml
   - term: Database
     tags:
       - Data in general
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_8.xml
-      See also: https://terms.codata.org/rdmt/database
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_8.xml
+      See: https://terms.codata.org/rdmt/database
   - term: De-identification
     tags:
       - Identifiability
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_101.xml
-      See also: https://terms.codata.org/rdmt/de-identification
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_101.xml
+      See: https://terms.codata.org/rdmt/de-identification
   - term: Desktop
     tags:
       - Computing
@@ -435,12 +436,12 @@ glossary:
     tags:
       - Computing
     definition: |
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml
   - term: Federated Learning
     tags:
       - Computing
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml
   - term: Federation Operator
     tags:
       - Management
@@ -769,6 +770,13 @@ glossary:
       - Computing
     definition: |-
       The set of computing resources used to implement and support a TRE. This may include desktop computers, databases, networking devices, firewalls etc. These resources may be physical (hardware owned by the TRE) or virtual (e.g. resources operated by a cloud provider).
+  - term: UK General Data Protection Regulation (UK GDPR)
+    tags:
+      - UK law and rules
+    definition: |-
+      The UK version of the [European Union (EU) General Data Protection Regulation (GDPR)] as recorded in the UK [Data Protection Act (DPA)].
+      In most cases, references to "GDPR" are likely to mean the UK GDPR, although the two versions are largely the same.
+      See also: [European Union (EU) General Data Protection Regulation (GDPR)]
   - term: Unconsented Data
     tags:
       - Data in general
