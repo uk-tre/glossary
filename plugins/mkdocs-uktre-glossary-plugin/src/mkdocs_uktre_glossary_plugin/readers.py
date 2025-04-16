@@ -37,31 +37,49 @@ def _crossref_terms(text):
     return text
 
 
-def to_glossary_html(df, **kwargs):
+def to_glossary_html(df, category="", **kwargs):
     """
     df.to_markdown() escapes some HTML, so create a HTML table ourselves
     """
     if kwargs:
         raise ValueError(f"Unsupported kwargs: {kwargs}")
 
-    out = """
+    th_tags = "" if category else "<th>Tags</th>"
+    out = f"""
     <table>
         <tr>
             <th>Term</th>
-            <th>Tags</th>
+            {th_tags}
             <th>Definition</th>
         </tr>
     """
-    for row in df.itertuples(index=False):
+
+    if category:
+        # Duplicate rows with multiple tags, one per tag
+        selected = df.explode("tags")
+        selected = selected[selected["tags"] == category]
+    else:
+        selected = df
+
+    for row in selected.itertuples(index=False):
         anchor = "term-" + _slugify(row.term)
+        term = escape(row.term)
+
+        if category:
+            # Column is omitted
+            tags = ""
+        else:
+            tags = "".join(markdown(escape(f"[{c}](categories/{_slugify(c)})")) for c in row.tags)
+            tags = f"<td>{tags}</td>"
+
         crossreferenced = _crossref_terms(link_urls(row.definition))
         definition = markdown(escape(crossreferenced))
 
         row = f"""
         <tr>
-            <td id="{anchor}"><a href="#{anchor}">{escape(row.term)}</a></td>
-            <td>{escape(", ".join(row.tags))}</td>
-            <td>{markdown(definition)}</td>
+            <td id="{anchor}"><a href="#{anchor}">{term}</a></td>
+            {tags}
+            <td>{definition}</td>
         </tr>
         """
         out += row
