@@ -168,12 +168,14 @@ glossary:
     tags:
       - Computing
     definition: |-
-      The management and oversight of software code or source files, including versioning, change tracking, access control , and collaboration.
+      The management and oversight of software code (programs) or source files, including versioning, change tracking, access control , and collaboration.
+      Contrast with: [Code Lists].
   - term: Code Lists
     tags:
       - Data in general
     definition: |-
-      A collection of specific, standard codes that are used in healthcare to represent different things, such as medical diagnoses, treatments, or procedures.
+      A collection of specific, standard codes (labels) that are used in healthcare to represent different things, such as medical diagnoses, treatments, or procedures.
+      Contrast with: [Code Control].
   - term: Command Line Interface (CLI)
     tags:
       - Computing
@@ -219,17 +221,17 @@ glossary:
       See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_3.xml
       See also: https://terms.codata.org/rdmt/data
       See also: https://www.nice.org.uk/Glossary?letter=D
-  - term: Data Archiving *
+  - term: Data Archiving
     tags:
       - Data Management
     definition: |-
       The practice of securely storing and preserving data in a read-only format for long-term retention, typically for compliance, historical reference, or reproducibility. 
       See also: https://vocabs.ardc.edu.au/repository/api/lda/codata/codata-research-data-management-terminology/v001/resource?uri=https%3A%2F%2Fterms.codata.org%2Frdmt%2Fresearch-data-management
-  - term: Data Classification *
+  - term: Data Classification
     tags:
       - Data Management
     definition: |-
-      None
+      The categorisation or labelling of data based on its sensitivity, risk, value, or other attributes, often used to determine appropriate handling, storage, and security controls.
   - term: Data Controller
     tags:
       - UK law and rules
@@ -277,7 +279,7 @@ glossary:
       - Data Management
     definition: |-
       The movement or transfer of data to infrastructure inside of a TRE either through manual or automated process. Often known as data inputs.
-  - term: Data Lifecycle Control *
+  - term: Data Lifecycle Control
     tags:
       - Data Management
     definition: |-
@@ -287,7 +289,7 @@ glossary:
       - Data in general
     definition: |-
       The ability to understand, analyse, interpret, and critically evaluate data and data related studies.
-  - term: Data Minimisation *
+  - term: Data Minimisation
     tags:
       - Data Management
     definition: |-
@@ -487,7 +489,7 @@ glossary:
       - Security Management
     definition: |-
       The process of confirming or authenticating the identity of individuals or entities, often through the verification of personal information, credentials, or biometric data.
-  - term: Information Asset Owner *
+  - term: Information Asset Owner
     tags:
       - Data Management
     definition: |-
@@ -694,7 +696,7 @@ glossary:
       - Running and overseeing research
     definition: |-
       All research that involves data from individuals must get approval from an authorised body. For research with NHS data, for example, this would be the NHS Research Ethics Committee (REC). Approvals committees often include both researchers and members of the public, and their job is to make sure that the research is planned and conducted in a fair and ethical way and that it benefits the public.
-  - term: Researcher(s) *
+  - term: Researcher(s)
     tags:
       - Other
     definition: |-
@@ -741,12 +743,12 @@ glossary:
     definition: |-
       Structured data is organised and formatted using pre-defined rules, so that computational analysis is easier. For example, structured data is often stored as tables in a database where each column represents a different type of information (like numbers or words), and each cell in the table holds a single piece of data. This organisation helps with sorting, searching, and understanding the data more easily.
       See also [Unstructured Data]
-  - term: Study Closure *
+  - term: Study Closure
     tags:
       - Research Management
     definition: |-
       The formal conclusion of a research study or project, including final data analysis, reporting, documentation, and archiving.
-  - term: Study Onboarding *
+  - term: Study Onboarding
     tags:
       - Research Management
     definition: |-
@@ -805,7 +807,7 @@ glossary:
       - Computing
     definition: |-
       See [Graphical User Interface]; [Command Line Interface]
-  - term: User Onboarding *
+  - term: User Onboarding
     tags:
       - Computing
     definition: |-
@@ -816,3 +818,9 @@ glossary:
     definition: |-
       A variable is any characteristic, number, or quantity that is represented in a dataset for each observation. In data analysis,a variable is a symbolic name to represent different types of information in datasets. For example, date of birth is a variable representing when a person was born.
       See also: [Characteristic]
+  - term: Workflow
+    tags:
+      - Computing
+    definition: |-
+      Specifically a computational workflow is a set of chained operations used to carry out a particular analysis or other computational task. Workflows simplify complex sequences of activities and enable researchers to automate and track the provenance of the work in workflow execution. Workflows can often be visualised as a network or tree of operations.
+
