@@ -23,7 +23,7 @@ def link_urls(s: str):
     s = re.sub(rf"(https?://[\S]+[^{trailing_punctuation}])", r"[\1](\1)", s)
     return s
 
-def _crossref_terms(text):
+def _crossref_terms(text, parent):
     # Find [...] but not [...](...)
     matches = re.findall(r"(\[[^]]+\])([^(]|$)", text)
     # Get the first capture group
@@ -31,7 +31,7 @@ def _crossref_terms(text):
 
     for crossref in crossrefs:
         target_term = crossref[1:-1]
-        link_target = "#term-" + _slugify(target_term)
+        link_target = f"{parent}#term-{_slugify(target_term)}"
         link_md = f"[{target_term}]({link_target})"
         text = text.replace(crossref, link_md)
     return text
@@ -44,6 +44,7 @@ def to_glossary_html(df, category="", **kwargs):
     if kwargs:
         raise ValueError(f"Unsupported kwargs: {kwargs}")
 
+    # Don't show tags column if this is a single category
     th_tags = "" if category else "<th>Tags</th>"
     out = f"""
     <table>
@@ -66,13 +67,16 @@ def to_glossary_html(df, category="", **kwargs):
         term = escape(row.term)
 
         if category:
-            # Column is omitted
+            # Don't show tags column if this is a single category
             tags = ""
+            # Need to link to top-level glossary since terms may not be in this category
+            parent = "../../"
         else:
             tags = "".join(markdown(escape(f"[{c}](categories/{_slugify(c)})")) for c in row.tags)
             tags = f"<td>{tags}</td>"
+            parent = ""
 
-        crossreferenced = _crossref_terms(link_urls(row.definition))
+        crossreferenced = _crossref_terms(link_urls(row.definition), parent)
         definition = markdown(escape(crossreferenced))
 
         row = f"""
