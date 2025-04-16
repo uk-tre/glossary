@@ -33,6 +33,6 @@ jobs:
 
       - name: Build docs
         run: |
-          mkdocs build --strict
+          make build
 
       # TODO: Internal link check
