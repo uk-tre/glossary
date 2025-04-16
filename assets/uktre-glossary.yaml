@@ -737,7 +737,8 @@ glossary:
     tags:
       - Computing
     definition: |-
-      A computer programming language designed to organise and work with information stored in relational databases. It allows people to find and use data from databases easily. [BS comment: Do we need a definition for 'relational database'?]
+      A computer programming language designed to organise and work with structured data stored in databases. It allows people to find and use data from databases easily.
+      See also: [Structured Data]
   - term: Structured Data
     tags:
       - Data in general
