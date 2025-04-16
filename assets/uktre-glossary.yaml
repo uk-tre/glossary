@@ -34,7 +34,7 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      See also: Administrative data in https://www.adruk.org/learning-hub/glossary/
+      See: Administrative data in https://www.adruk.org/learning-hub/glossary/
   - term: Algorithm
     tags:
       - Computing
@@ -137,7 +137,7 @@ glossary:
       - Data in general
     definition: |-
       A piece of information about an individual, place or thing that is potentially useful in data analysis. For example, characteristics of a person might be age, gender, ethnicity, socioeconomic status and education level. If data about individuals were recorded in a table, the columns of the table might be characteristics.
-      See also: [Socio-demographic Factors]
+      See also: [Socio-demographic Factors].
   - term: Chief Investigator (CI)
     tags:
       - Running and overseeing research
@@ -148,18 +148,19 @@ glossary:
       - Health Research
     definition: |-
       A research study conducted to test a new treatment, like a medicine or other therapy. When it comes to testing medicines, clinical trials are known as Clinical Trials of Investigational Medicinal Products (CTIMPs), and they have additional special rules and regulations that need to be followed. These rules ensure the safety and effectiveness of the new treatment being tested before it can be made available to the general public and the safety of the people participating in the trials.
-  - term: Clinical/ Medical/ Health Data or Healthcare data
+  - term: Clinical/ Medical/ Health Data or Healthcare Data
     tags:
       - Health Services & Health Data
     definition: |-
-      A person's information about their health or day-to-day health care. This information is collected as people see healthcare professionals, or have tests and treatments as part of their care. It is stored in electronic health records (EHRs) used by the NHS. 
-  - term: Cloud computing
+      A person's information about their health or day-to-day health care. This information is collected as people see healthcare professionals, or have tests and treatments as part of their care. It is stored in electronic health records (EHRs) used by the NHS.
+      See also: [Sensitive Data].
+  - term: Cloud Computing
     tags:
       - Computing
     definition: |-
       A model of computer access or provision where users rent computer power remotely, rather than buying and installing their own hardware locally. Cloud computing may be described as "public cloud", meaning available to anyone from a wide number of cloud computing companies, or as "private cloud" or "on-premises" (or "on-prem") cloud, meaning installed and provided privately by, for example, a firm for its own uses. 
       Examples: Microsoft Azure, Amazon Web Services (AWS) and Google Cloud Platform (GCP) are large, public cloud providers.
-  - term: Cloud storage
+  - term: Cloud Storage
     tags:
       - Computing
     definition: |-
@@ -169,7 +170,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      The management and oversight of software code (programs) or source files, including versioning, change tracking, access control , and collaboration.
+      The management and oversight of software code (programs) or source files, including versioning, change tracking, access control and collaboration.
       Contrast with: [Code Lists].
   - term: Code Lists
     tags:
@@ -193,7 +194,7 @@ glossary:
     tags:
       - Security Management
     definition: |-
-      Related to Compliance in https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-C_42.xml
+      Related to: Compliance in https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-C_42.xml
   - term: Consent
     tags:
       - Processes
@@ -204,7 +205,7 @@ glossary:
       *Broad consent* is a mechanism of gaining the consent of an individual who donates their biosamples and health data with a view to their future use in research, and may not be specific to a particular research project at the time of collection.
       *Assent* is the process of providing approval for data processing/involvement in research by an individual who is not legally eligible to do so (e.g. a child under the age of 16), and will be supported by an adult providing legal consent.
       *Withdrawal of consent* is both a legal and ethical right of the individual whose data is being processed, and must be respected in reference to data protection and research compliance. It allows an infividual to discontinue/rescind access to his/her data and prevent further processing.
-      See also: [Unconsented Data]
+      See also: [Unconsented Data].
   - term: Controls
     tags:
       - Security Management
@@ -214,9 +215,9 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_3.xml
-      See also: https://terms.codata.org/rdmt/data
-      See also: https://www.nice.org.uk/Glossary?letter=D
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_3.xml
+      See: https://terms.codata.org/rdmt/data
+      See: https://www.nice.org.uk/Glossary?letter=D
   - term: Data Archiving
     tags:
       - Data Management
@@ -232,8 +233,8 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      A data controller is a person or organisation who decides how personal data, which is information about identifiable individuals, is used or handled. Examples of data controllers include NHS organisations like Trusts and GP surgeries. In the UK, most organisations handling personal data must register with the ICO (Information Commissioner's Office), and their details are public. Data controllers are legally responsible for how data is managed. They must prevent misuse, report breaches, and can be fined for failing to meet these duties.
-      See also: data processor, Information Commissioner's Office (ICO) 
+      A data controller is a person or organisation who decides how personal data, which is information about identifiable individuals, is used or handled. Examples of data controllers include NHS organisations like Trusts and GP surgeries, or devolved government bodies. In the UK, most organisations handling personal data must register with the ICO (Information Commissioner's Office), and their details are public. Data controllers are legally responsible for how data is managed. They must prevent misuse, report breaches, and can be fined for failing to meet these duties.
+      See also: [Data Processor]; [Information Commissioner's Office (ICO)].
       See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_16.xml
       See also: https://www.adruk.org/learning-hub/glossary/
       See also: https://www.nice.org.uk/Glossary?letter=D
@@ -241,9 +242,9 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_17.xml
-      See also: https://terms.codata.org/rdmt/data-curation
-      See also: https://www.nice.org.uk/Glossary?letter=D
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_17.xml
+      See: https://terms.codata.org/rdmt/data-curation
+      See: https://www.nice.org.uk/Glossary?letter=D
   - term: Data Custodian
     tags:
       - Data Management
@@ -263,7 +264,7 @@ glossary:
     tags:
       - Data Management
     definition: |-
-      The movement or transfer of data to infrastructure outside of a TRE either through manual or automated process. Often known as data outputs.
+      The movement or transfer of data to locations outside of a TRE, either through manual or automated process. Data moved in this way are often known as data outputs.
   - term: Data Governance
     tags:
       - Processes
@@ -273,7 +274,7 @@ glossary:
     tags:
       - Data Management
     definition: |-
-      The movement or transfer of data to infrastructure inside of a TRE either through manual or automated process. Often known as data inputs.
+      The movement or transfer of data to infrastructure inside of a TRE either through manual or automated process. Data moved in this way are often known as data inputs.
   - term: Data Lifecycle Control
     tags:
       - Data Management
@@ -300,31 +301,34 @@ glossary:
       - Data Management
     definition: |-
       See: https://www.nice.org.uk/Glossary?letter=D
+      See also: [Federated Analytics]; [Federated Data].
   - term: Data Processor
     tags:
       - UK law and rules
     definition: |-
       An entity that processes personal data on behalf of a data controller, following the controller's instructions. They do not have control over how the data is used and are only allowed to perform tasks as directed by the controller. For example, a company hired to manage an email service for another organization acts as a data processor. The processor cannot use the data for any other purposes, such as marketing, without the controller's consent.
+      See also: [Data Controller]; [Information Commissioner's Office (ICO)].
   - term: Data Protection Act (DPA)
     tags:
       - UK law and rules
     definition: |-
       UK law that regulates how personal data—information that can identify living individuals—is collected, used, and stored. It provides rules for organizations on data handling, ensuring privacy and security, while giving individuals rights to access, correct, and control their own data. It implemented UK-specific aspects of the GDPR and superseded previous UK legislation.
+      See also: [UK General Data Protection Regulation (UK GDPR)].
   - term: Data Protection Impact Assessment
     tags:
       - UK law and rules
     definition: |-
       A process used to identify and minimize risks to personal data before it is collected or processed. It evaluates how data use might impact individuals' privacy and outlines steps to protect their information. A DPIA helps ensure that data handling practices are safe and secure, functioning like a risk assessment for personal data.
-  - term: Data Protection Officer
+  - term: Data Protection Officer (DPO)
     tags:
       - UK law and rules
     definition: |-
-      A professional responsible for ensuring that organizations comply with data protection laws when handling personal data. They advise on data privacy practices, monitor compliance, and act as a point of contact for data protection authorities. Organizations processing large amounts of personal data or those in the public sector are required to appoint a DPO, and they are listed on the public register held by the [Information Commissioner's Office (ICO)]
+      A professional responsible for ensuring that organizations comply with data protection laws when handling personal data. They advise on data privacy practices, monitor compliance, and act as a point of contact for data protection authorities. Organizations processing large amounts of personal data or those in the public sector are required to appoint a DPO, and they are listed on the public register held by the [Information Commissioner's Office (ICO)].
   - term: Data Science
     tags:
       - Data in general
     definition: |-
-      Data Science is a field focused on extracting knowledge and insights from data. It combines techniques from data management, computer science, and statistics to store, organize, and analyze data. Data science also involves applying this knowledge to specific problems, making it highly interdisciplinary, with experts from various backgrounds (such as clinicians and computer scientists) collaborating. Its goal is to uncover useful patterns and make data-driven decisions or predictions.
+      A field of analysis focused on extracting knowledge and insights from data. It combines techniques from data management, computer science, and statistics to store, organize, and analyze data. Data science also involves applying this knowledge to specific problems, making it highly interdisciplinary, with experts from various backgrounds (such as clinicians and computer scientists) collaborating. Its goal is to uncover useful patterns and make data-driven decisions or predictions.
   - term: Data Subject
     tags:
       - UK law and rules
@@ -334,8 +338,8 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      A Data Transfer Agreement is an agreement or contract between a data controller and another organisation (such as a data processor), governing the transfer of data.
-      See also: [Data Controller], [Data Processor].
+      An agreement or contract between a data controller and another organisation (such as a data processor), governing the transfer of data.
+      See also: [Data Controller]; [Data Processor].
       See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml 
   - term: Data Transfer Service
     tags:
@@ -365,7 +369,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      The [Graphical User Interface] and environment presented to users on their computer screens, typically including icons, menus, and windows for interacting with applications and files.
+      The [Graphical User Interface (GUI)] and environment presented to users on their computer screens, typically including icons, menus, and windows for interacting with applications and files.
   - term: Desktop Applications
     tags:
       - Computing
@@ -376,7 +380,7 @@ glossary:
       - Identifiability
     definition: |-
       The process of review by approved staff at a Trusted Research Environment (TRE) of any research or analysis results prior to their release from the TRE. The aim of disclosure control is to ensure there are no risks of identifying individuals in any released research results.
-      See also: [Egress/Ingress Control]
+      See also: [Egress/Ingress Control].
       Related to: Disclosure Control Methods https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_142.xml
       Related to: Disclosure Check https://w3id.org/shp#DisclosureCheck
   - term: Egress/Ingress Control
@@ -384,22 +388,23 @@ glossary:
       - Security Management
     definition: |-
       The implementation of measures or controls to control and monitor the movement of data into and out of the TRE, to prevent sensitive data from leaving the TRE. Often known as output/input checking, or in the case of egress, disclosure control.
-      See also: [Disclosure Control]
+      See also: [Disclosure Control].
   - term: Electronic Health Record (EHR)
     tags:
       - Health Services & Health Data
     definition: |-
       A person’s health records that are held digitally on a computer (as opposed to on paper). Also known as an electronic patient record (EPR).
-  - term: Ethical approvals
+  - term: Ethical Approvals
     tags:
       - Running and Overseeing Research
     definition: |-
-      Ethical approvals are like getting the green light from a group of experts who make sure that research is done in a proper and respectful way. They ensure that participants' rights are protected and everything is conducted responsibly. It's like having a permission slip before starting the research to ensure everything is fair and safe.
+      Agreement from a group of experts that a piece of research is done in a proper and respectful way. Ethical approvals ensure that participants' rights are protected and all the research is conducted responsibly. 
   - term: European Union (EU) General Data Protection Regulation (GDPR)
     tags:
       - UK law and rules
     definition: |-
-      The 2016 GDPR set out the EU framework for the handling of data relating to identifiable living people. Among many other things, it sets out a variety of legal bases for using personal data, such as “the data subject has given consent”, “a task... in the public interest”, or for “scientific... research”. The UK DPA was framed in its terms and set out UK-specific aspects. When the UK left the EU in 2020, the GDPR remained in UK law as the “frozen GDPR” or “UK GDPR”.
+      The 2016 GDPR set out the EU framework for the handling of data relating to identifiable living people. Among many other things, it sets out a variety of legal bases for using personal data, such as “the data subject has given consent”, “a task... in the public interest”, or for “scientific... research”. The UK [Data Protection Act (DPA)] was framed in its terms and set out UK-specific aspects. When the UK left the EU in 2020, the GDPR remained in UK law as the “frozen GDPR” or “UK GDPR”.
+      See also: [UK General Data Protection Regulation (UK GDPR)]; [Data Protection Act (DPA)].
   - term: External Audit
     tags:
       - Management
@@ -426,12 +431,14 @@ glossary:
     tags:
       - Computing
     definition: |-
-      A form of analytics where data analysis happens across multiple independent organisations, with each organisation keeping complete control of their own data. Instead of combining all data in one place, the analysis methods are sent to each organisation's data. For example, multiple hospitals could participate in medical research by running the same analysis on their local patient records, then sharing only the summarized statistical results - like average patient outcomes or treatment effectiveness. The raw patient data never leaves each hospital's secure system, but researchers can still draw insights from the combined statistical findings across all participating hospitals
+      A form of analytics where data analysis happens across multiple independent organisations, with each organisation keeping complete control of their own data. Instead of combining all data in one place, the analysis program or [Workflow] is sent to each organisation's data. For example, multiple hospitals could participate in medical research by running the same analysis on their local patient records, then sharing only the summarized statistical results. The raw patient data would never leave each hospital, but researchers could still draw insights from the combined statistical findings across all participating hospitals.
+      See also: [Data Pooling]; [Federated Data].
   - term: Federated Data
     tags:
       - Computing
     definition: |-
-      A model of data access in which different organizations keep full control of their own data but agree on ways to safely share access to it for specific purposes. Each organization maintains its own data security and rules, but allows approved users to work with the data through agreed-upon tools and systems. For example, research institutions might share access to their datasets while keeping the data within their own secure environments, allowing collaborative research without moving sensitive data to a central location
+      A model of data access in which different organizations keep full control of their own data but agree on ways to safely share access to it for specific purposes. Each organization maintains its own data security and rules, but allows approved users to work with the data through agreed-upon tools and systems. For example, research institutions might share access to their datasets while keeping the data within their own secure environments, allowing collaborative research without moving sensitive data to a central location.
+      See also: [Data Pooling]; [Federated​ Analytics].
   - term: Federated Identity Mapping
     tags:
       - Computing
@@ -451,7 +458,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      See [Federated Analytics]
+      See: [Federated Analytics].
   - term: Firewall
     tags:
       - Security Management
@@ -469,7 +476,7 @@ glossary:
       - Computing
     definition: |-
       A way of interacting with a computer system based on visual presentations of documents, applications and so on as windows on a screen. Users interact with a GUI using pointing devices (e.g. a mouse or a finger) rather than having to type everything. 
-      Contrast with [Command Line Interface].
+      Contrast with: [Command Line Interface].
   - term: Identifiable Data
     tags:
       - Identifiability
@@ -503,7 +510,7 @@ glossary:
       - UK law and rules
     definition: |-
       How an organisation takes care of its information or data. It involves strategies and processes for defining, collecting, storing, securing, using, protecting and disposing of data safely, while also respecting privacy. IG ensures that data is managed well throughout its life cycle, following guidelines and laws. It helps organisations handle data responsibly, protect it from risks, and use it in a way that follows rules and keeps people's information safe.
-      Information governance also identifies the processes to be followed in the event of a failure to protect personal data, and any reporting, or escalation to regulatory bodies if necessary,.
+      IG also identifies the processes to be followed in the event of a failure to protect personal data, and any reporting, or escalation to regulatory bodies that might be required.
   - term: Internal Audit
     tags:
       - Management
@@ -608,13 +615,13 @@ glossary:
     definition: |
       A purposeful set of activities designed to promote an ongoing two-way dialogue with the public about data and research, driven by active listening and responding.
       Example: A researcher attending science festivals to enhance the public’s understanding of a specific topic through engaging and interactive activities.
-      See also: [Patient and Public Involvement (PPI)]
+      See also: [Patient and Public Involvement (PPI)].
   - term: Patient and Public Involvement (PPI)
     tags:
       - Health Research
     definition: |
       A process by which patients and the public are included in the decision-making process within a piece of work or research. By providing their own insights and advice from personal experience they can offer unique and valuable perspectives throughout the planning, development and implementation stages. 
-      See also: [Patient and Public Engagement (PPE)]
+      See also: [Patient and Public Engagement (PPE)].
   - term: Peer Review
     tags:
       - Health Research
@@ -717,19 +724,19 @@ glossary:
       - Data in general
     definition: |-
       Characteristics of individuals or populations related to social and demographic aspects such as age, gender, ethnicity, socioeconomic status, and education level.
-      See also: [Characteristic]
+      See also: [Characteristic].
   - term: Structured Query Language (SQL)
     tags:
       - Computing
     definition: |-
       A computer programming language designed to organise and work with structured data stored in databases. It allows people to find and use data from databases easily.
-      See also: [Structured Data]
+      See also: [Structured Data].
   - term: Structured Data
     tags:
       - Data in general
     definition: |-
-      Structured data is organised and formatted using pre-defined rules, so that computational analysis is easier. For example, structured data is often stored as tables in a database where each column represents a different type of information (like numbers or words), and each cell in the table holds a single piece of data. This organisation helps with sorting, searching, and understanding the data more easily.
-      See also [Unstructured Data]
+      Data which are organised and formatted using pre-defined rules, so that computational analysis is easier. For example, structured data is often stored as tables in a database where each column represents a different type of information (like numbers or words), and each cell in the table holds a single piece of data. This organisation helps with sorting, searching, and understanding the data more easily.
+      See also: [Unstructured Data].
   - term: Study Closure
     tags:
       - Research Management
@@ -775,20 +782,20 @@ glossary:
       - UK law and rules
     definition: |-
       The UK version of the [European Union (EU) General Data Protection Regulation (GDPR)] as recorded in the UK [Data Protection Act (DPA)].
-      In most cases, references to "GDPR" are likely to mean the UK GDPR, although the two versions are largely the same.
-      See also: [European Union (EU) General Data Protection Regulation (GDPR)]
+      In most cases, references in the UK to "GDPR" are likely to mean the UK GDPR, although the two versions are largely the same.
+      See also: [Data Protection Act (DPA)]; [European Union (EU) General Data Protection Regulation (GDPR)].
   - term: Unconsented Data
     tags:
       - Data in general
     definition: |-
       Personal data used for secondary purposes (such as research) where a specific, demonstrated public benefit is proven, usually with Article 6 and Article 9 in the General Data Protection Regulations as the legal basis for undertaking that secondary use of that data (as opposed to individual consent).
-      See also: [Consent]
+      See also: [Consent]; [UK General Data Protection Regulation (UK GDPR)].
   - term: Unstructured Data
     tags:
       - Data in general
     definition: |-
-      Personal data used for secondary purposes (such as research) where a specific, demonstrated public benefit is proven, usually with Article 6 and Article 9 in the General Data Protection Regulations as the legal basis for undertaking that secondary use of that data (as opposed to individual consent).
-      See also: [Consent] [European Union (EU) General Data Protection Regulation (GDPR)]
+      Data that has limited structure, or structure that is very difficult to process computationally. Examples of such unstructured data include free text, like paragraphs of written information, or images such as X-ray or scan pictures, or scanned letters.
+      See also: [Structured Data].
   - term: User Documentation
     tags:
       - Computing
@@ -798,7 +805,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      See [Graphical User Interface]; [Command Line Interface]
+      See [Graphical User Interface]; [Command Line Interface].
   - term: User Onboarding
     tags:
       - Computing
@@ -808,11 +815,11 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      A variable is any characteristic, number, or quantity that is represented in a dataset for each observation. In data analysis,a variable is a symbolic name to represent different types of information in datasets. For example, date of birth is a variable representing when a person was born.
-      See also: [Characteristic]
+      Any characteristic, number, or quantity that is represented in a dataset for each observation. In data analysis,a variable is a symbolic name to represent different types of information in datasets. For example, date of birth is a variable representing when a person was born.
+      See also: [Characteristic].
   - term: Workflow
     tags:
       - Computing
     definition: |-
-      Specifically a computational workflow is a set of chained operations used to carry out a particular analysis or other computational task. Workflows simplify complex sequences of activities and enable researchers to automate and track the provenance of the work in workflow execution. Workflows can often be visualised as a network or tree of operations.
+      Specifically a *computational workflow* is a set of chained operations used to carry out a particular analysis or other computational task. Workflows simplify complex sequences of activities and enable researchers to automate and track the provenance of the work in workflow execution. Workflows can often be visualised as a network or tree of operations.
 
