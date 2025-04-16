@@ -816,3 +816,9 @@ glossary:
     definition: |-
       A variable is any characteristic, number, or quantity that is represented in a dataset for each observation. In data analysis,a variable is a symbolic name to represent different types of information in datasets. For example, date of birth is a variable representing when a person was born.
       See also: [Characteristic]
+  - term: Workflow
+    tags:
+      - Computing
+    definition: |-
+      Specifically a computational workflow is a set of chained operations used to carry out a particular analysis or other computational task. Workflows simplify complex sequences of activities and enable researchers to automate and track the provenance of the work in workflow execution. Workflows can often be visualised as a network or tree of operations.
+
