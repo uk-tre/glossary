@@ -231,7 +231,7 @@ glossary:
     tags:
       - Data Management
     definition: |-
-      None
+      The categorisation or labelling of data based on its sensitivity, risk, value, or other attributes, often used to determine appropriate handling, storage, and security controls.
   - term: Data Controller
     tags:
       - UK law and rules
