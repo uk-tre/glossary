@@ -168,12 +168,14 @@ glossary:
     tags:
       - Computing
     definition: |-
-      The management and oversight of software code or source files, including versioning, change tracking, access control , and collaboration.
+      The management and oversight of software code (programs) or source files, including versioning, change tracking, access control , and collaboration.
+      Contrast with: [Code Lists].
   - term: Code Lists
     tags:
       - Data in general
     definition: |-
-      A collection of specific, standard codes that are used in healthcare to represent different things, such as medical diagnoses, treatments, or procedures.
+      A collection of specific, standard codes (labels) that are used in healthcare to represent different things, such as medical diagnoses, treatments, or procedures.
+      Contrast with: [Code Control].
   - term: Command Line Interface (CLI)
     tags:
       - Computing
