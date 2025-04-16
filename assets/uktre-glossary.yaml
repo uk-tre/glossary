@@ -137,6 +137,7 @@ glossary:
       - Data in general
     definition: |-
       A piece of information about an individual, place or thing that is potentially useful in data analysis. For example, characteristics of a person might be age, gender, ethnicity, socioeconomic status and education level. If data about individuals were recorded in a table, the columns of the table might be characteristics.
+      See also: [Socio-demographic Factors]
   - term: Chief Investigator (CI)
     tags:
       - Running and overseeing research
@@ -376,9 +377,11 @@ glossary:
     definition: |-
       Software applications designed to be installed and run on individual computers or [Desktop] systems, often providing specific functionalities or tools.
   - term: Disclosure Control
-    tags: []
+    tags:
+      - Identifiability
     definition: |-
       The process of review by approved staff at a Trusted Research Environment (TRE) of any research or analysis results prior to their release from the TRE. The aim of disclosure control is to ensure there are no risks of identifying individuals in any released research results.
+      See also: [Egress/Ingress Control]
       Related to: Disclosure Control Methods https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_142.xml
       Related to: Disclosure Check https://w3id.org/shp#DisclosureCheck
   - term: Egress/Ingress Control
@@ -468,7 +471,8 @@ glossary:
       The Five Safes framework is a set of principles developed to guide researchers and organizations in handling sensitive data.
       See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_26.xml
   - term: Graphical User Interface (GUI)
-    tags: []
+    tags:
+      - Computing
     definition: |-
       A way of interacting with a computer system based on visual presentations of documents, applications and so on as windows on a screen. Users interact with a GUI using pointing devices (e.g. a mouse or a finger) rather than having to type everything. 
       Contrast with [Command Line Interface].
@@ -723,20 +727,18 @@ glossary:
       Commercial data such as retail information, business details, IP (intellectual property) and Copyright information or confidential product details is also be considered sensitive data.
 
       Data sensitivity is be classified at an institutional level within policy documents (e.g. highly confidential, confidential, not classified) with handling requirements and placed on the different levels of confidetiality required. See [Personal Data]
-  - term: Socio-demographic factors
-    tags: []
+  - term: Socio-demographic Factors
+    tags:
+      - Data in general
     definition: |-
       Characteristics of individuals or populations related to social and demographic aspects such as age, gender, ethnicity, socioeconomic status, and education level.
-  - term: Statistical Disclosure Control
-    tags:
-      - Identifiability
-    definition: |-
-      The process of ensuring data such as analysis results that are being taken out of a TRE are properly anonymised to ensure no-one can figure out the identity of specific individuals.
+      See also: [Characteristic]
   - term: Structured Query Language (SQL)
     tags:
       - Computing
     definition: |-
-      A computer programming language designed to organise and work with information stored in relational databases. It allows people to find and use data from databases easily. [BS comment: Do we need a definition for 'relational database'?]
+      A computer programming language designed to organise and work with structured data stored in databases. It allows people to find and use data from databases easily.
+      See also: [Structured Data]
   - term: Structured Data
     tags:
       - Data in general
