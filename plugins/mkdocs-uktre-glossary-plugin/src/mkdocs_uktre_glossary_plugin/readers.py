@@ -23,7 +23,7 @@ def link_urls(s: str):
     s = re.sub(rf"(https?://[\S]+[^{trailing_punctuation}])", r"[\1](\1)", s)
     return s
 
-def _crossref_terms(text):
+def _crossref_terms(text, parent):
     # Find [...] but not [...](...)
     matches = re.findall(r"(\[[^]]+\])([^(]|$)", text)
     # Get the first capture group
@@ -31,37 +31,59 @@ def _crossref_terms(text):
 
     for crossref in crossrefs:
         target_term = crossref[1:-1]
-        link_target = "#term-" + _slugify(target_term)
+        link_target = f"{parent}#term-{_slugify(target_term)}"
         link_md = f"[{target_term}]({link_target})"
         text = text.replace(crossref, link_md)
     return text
 
 
-def to_glossary_html(df, **kwargs):
+def to_glossary_html(df, category="", **kwargs):
     """
     df.to_markdown() escapes some HTML, so create a HTML table ourselves
     """
     if kwargs:
         raise ValueError(f"Unsupported kwargs: {kwargs}")
 
-    out = """
+    # Don't show tags column if this is a single category
+    th_tags = "" if category else "<th>Tags</th>"
+    out = f"""
     <table>
         <tr>
             <th>Term</th>
-            <th>Tags</th>
+            {th_tags}
             <th>Definition</th>
         </tr>
     """
-    for row in df.itertuples(index=False):
+
+    if category:
+        # Duplicate rows with multiple tags, one per tag
+        selected = df.explode("tags")
+        selected = selected[selected["tags"] == category]
+    else:
+        selected = df
+
+    for row in selected.itertuples(index=False):
         anchor = "term-" + _slugify(row.term)
-        crossreferenced = _crossref_terms(link_urls(row.definition))
+        term = escape(row.term)
+
+        if category:
+            # Don't show tags column if this is a single category
+            tags = ""
+            # Need to link to top-level glossary since terms may not be in this category
+            parent = "../../"
+        else:
+            tags = "".join(markdown(escape(f"[{c}](categories/{_slugify(c)})")) for c in row.tags)
+            tags = f"<td>{tags}</td>"
+            parent = ""
+
+        crossreferenced = _crossref_terms(link_urls(row.definition), parent)
         definition = markdown(escape(crossreferenced))
 
         row = f"""
         <tr>
-            <td id="{anchor}"><a href="#{anchor}">{escape(row.term)}</a></td>
-            <td>{escape(", ".join(row.tags))}</td>
-            <td>{markdown(definition)}</td>
+            <td id="{anchor}"><a href="#{anchor}">{term}</a></td>
+            {tags}
+            <td>{definition}</td>
         </tr>
         """
         out += row

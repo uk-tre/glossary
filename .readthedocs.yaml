@@ -6,6 +6,9 @@ build:
   os: ubuntu-24.04
   tools:
     python: "3"
+  jobs:
+    pre_build:
+      - make pre-build
 
 mkdocs:
   configuration: mkdocs.yml
