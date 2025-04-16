@@ -200,15 +200,10 @@ glossary:
     definition: |-
       Consent is defined as individual providing freely given, specific, informed and unambiguous indication of their wishes to provide their data for processing relating to him or her.
       Consent within the context of data protection regulation is one of the grounds (lawful bases) for lawfully processing personal data in relation to an individual and is specific towards particlar activities.
-
-      Research consent is the process of documenting an individual's choice to be involved in a research project(s) and typically called informed consent - this conveys that there is a process to allow participants to make a meaningful choiceInformed consent" is used to emphasise that understanding is crucial before agreeing, and typically applies when sharing personal data or participating in research studies. Research consent is commonly required for participation in clinical trials/research.
-
-      Broad consent is a mechanism of gaining the consent of an individual who donates their biosamples and health data with a view to their future use in research, and may not be specific to a particular research project at the time of collection.
-
-      Assent is the process of providing approval for data processing/involvement in research by an individual who is not legally eligible to do so (e.g. a child under the age of 16), and will be supported by an adult providing legal consent.
-
-      Withdrawal of consent is both a legal, and ethical right of the individual whose data is being processed, and must be respected in reference to data protection and research compliance. It allows an infividual to discontinue/rescind access to his/her data and prevent further processing.
-
+      *Research consent* is the process of documenting an individual's choice to be involved in a research project(s) and typically called informed consent - this conveys that there is a process to allow participants to make a meaningful choiceInformed consent" is used to emphasise that understanding is crucial before agreeing, and typically applies when sharing personal data or participating in research studies. Research consent is commonly required for participation in clinical trials/research.
+      *Broad consent* is a mechanism of gaining the consent of an individual who donates their biosamples and health data with a view to their future use in research, and may not be specific to a particular research project at the time of collection.
+      *Assent* is the process of providing approval for data processing/involvement in research by an individual who is not legally eligible to do so (e.g. a child under the age of 16), and will be supported by an adult providing legal consent.
+      *Withdrawal of consent* is both a legal and ethical right of the individual whose data is being processed, and must be respected in reference to data protection and research compliance. It allows an infividual to discontinue/rescind access to his/her data and prevent further processing.
       See also: [Unconsented Data]
   - term: Controls
     tags:
@@ -238,7 +233,6 @@ glossary:
       - UK law and rules
     definition: |-
       A data controller is a person or organisation who decides how personal data, which is information about identifiable individuals, is used or handled. Examples of data controllers include NHS organisations like Trusts and GP surgeries. In the UK, most organisations handling personal data must register with the ICO (Information Commissioner's Office), and their details are public. Data controllers are legally responsible for how data is managed. They must prevent misuse, report breaches, and can be fined for failing to meet these duties.
-
       See also: data processor, Information Commissioner's Office (ICO) 
       See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_16.xml
       See also: https://www.adruk.org/learning-hub/glossary/
@@ -415,11 +409,10 @@ glossary:
       - Data in general
     definition: |-
       FAIR data is a set of principles ensuring data is:
-      Findable: Easy to locate through clear identification and metadata
-      Accessible: Retrievable through standard methods, even if authentication is needed
-      Interoperable: Can work across different systems and with other datasets
-      Reusable: Well-documented and properly licensed so others can use it
-
+      *Findable*: Easy to locate through clear identification and metadata.
+      *Accessible*: Retrievable through standard methods, even if authentication is needed.
+      *Interoperable*: Can work across different systems and with other datasets.
+      *Reusable*: Well-documented and properly licensed so others can use it.
       See also: https://terms.codata.org/rdmt/fair-data
       See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_3.xml
   - term: Federation
@@ -432,12 +425,12 @@ glossary:
     tags:
       - Computing
     definition: |-
-      Federated analytics is when data analysis happens across multiple independent organisations, with each organisation keeping complete control of their own data. Instead of combining all data in one place, the analysis methods are sent to each organisation's data. For example, multiple hospitals could participate in medical research by running the same analysis on their local patient records, then sharing only the summarized statistical results - like average patient outcomes or treatment effectiveness. The raw patient data never leaves each hospital's secure system, but researchers can still draw insights from the combined statistical findings across all participating hospitals
+      A form of analytics where data analysis happens across multiple independent organisations, with each organisation keeping complete control of their own data. Instead of combining all data in one place, the analysis methods are sent to each organisation's data. For example, multiple hospitals could participate in medical research by running the same analysis on their local patient records, then sharing only the summarized statistical results - like average patient outcomes or treatment effectiveness. The raw patient data never leaves each hospital's secure system, but researchers can still draw insights from the combined statistical findings across all participating hospitals
   - term: Federated Data
     tags:
       - Computing
     definition: |-
-      Federated data is when different organizations keep full control of their own data but agree on ways to safely share access to it for specific purposes. Each organization maintains its own data security and rules, but allows approved users to work with the data through agreed-upon tools and systems. For example, research institutions might share access to their datasets while keeping the data within their own secure environments, allowing collaborative research without moving sensitive data to a central location
+      A model of data access in which different organizations keep full control of their own data but agree on ways to safely share access to it for specific purposes. Each organization maintains its own data security and rules, but allows approved users to work with the data through agreed-upon tools and systems. For example, research institutions might share access to their datasets while keeping the data within their own secure environments, allowing collaborative research without moving sensitive data to a central location
   - term: Federated Identity Mapping
     tags:
       - Computing
@@ -482,12 +475,12 @@ glossary:
     definition: |-
       Data that can be used to identify, contact, or locate a specific individual, either by itself or when combined with other available information. This includes direct identifiers like full names, NHS numbers, and email addresses; indirect identifiers such as date of birth or workplace that could identify someone when combined; and context-dependent identifiers like IP addresses or device IDs. For example, while a person's age alone might not identify them, combining it with their job title and city of residence could make them identifiable – such as "a 45-year-old pediatric surgeon in Bolton, Greater Manchester" might be specific enough to identify a particular individual, even without naming them directly. This type of data requires special handling under various privacy regulations like GDPR to protect individuals' privacy and prevent unauthorized access or misuse.
       See also: https://terms.codata.org/rdmt/direct-identifier and https://terms.codata.org/rdmt/indirect-identifier
-      See alos: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml
+      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml
   - term: Identity and Access Management Services
     tags:
       - Security Management
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml
   - term: Identity Verification
     tags:
       - Security Management
@@ -536,7 +529,7 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      On 25 May 2018 the General Data Protection Regulation (“GDPR”) came into force. From this date, you must have a defined lawful basis to hold and use ‘personal data’. The Health Research Authority (HRA) and Information Commissioner’s Office (ICO) advise that for almost all research conducted in the UK organisations should rely on either: (1) ‘Task in public interest’ – for all public bodies (NHS / HSC, Universities, UKRI etc), or (2) ‘Legitimate interest’ – for non-public bodies (charities etc.)
+      Under UK data protection law and the UK GDPR, organisations must have a defined lawful basis to hold and use ‘personal data’. The Health Research Authority (HRA) and Information Commissioner’s Office (ICO) advise that for almost all research conducted in the UK organisations should rely on either: (1) ‘Task in public interest’ – for all public bodies (NHS / HSC, Universities, UKRI etc), or (2) ‘Legitimate interest’ – for non-public bodies (charities etc.)
       See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-L_3.xml
   - term: Linkage of data (data linkage)
     tags:
@@ -565,12 +558,12 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      Metadata is data that describes or provides information about other data. It is used to provide context, meaning, and structure to data, and helps to make it easier to understand and use. Metadata can describe various aspects of data, such as its content, format, structure, origin, quality, and usage.
+      Data that describes or provides information about other data. It is used to provide context, meaning, and structure to data, and helps to make it easier to understand and use. Metadata can describe various aspects of data, such as its content, format, structure, origin, quality, and usage.
   - term: Minimum Viable Product (MVP)
     tags:
       - Computing
     definition: |-
-      A minimal viable product (MVP) is a version of a product or service that has the minimum set of features and functionality required to meet the needs of early adopters or customers. The goal of an MVP is to quickly validate the product idea and test the market demand, while minimizing development costs and time-to-market.
+      A version of a product or service that has the minimum set of features and functionality required to meet the needs of early adopters or customers. The goal of an MVP is to quickly validate the product idea and test the market demand, while minimizing development costs and time-to-market.
   - term: Monitoring
     tags:
       - Management
@@ -581,31 +574,29 @@ glossary:
       - Special aspects in the NHS Context
     definition: |-
       The National Data Guardian (NDG) for Health and Social Care is an independent champion for patients and the public when it comes to matters of their confidential health and social care data, and appointed by the Secretary of State for Health and Social Care by statute . To support the development and maintenance of trustworthy systems and practices, the NDG provide advice, encouragement, and challenge to the health and social care system on the safe, appropriate, and ethical use of people’s confidential health and care information.
-
       The NDG advise the UK government and NHS on the processing of health and adult social care data in England.  Both the Caldicott Guardian and the National Data Guardian protect patient information. The Caldicott Guardian focuses on data protection within individual healthcare organisations.
+      See also: [Caldicott Guardian].
   - term: National Data Opt-Out (NDO)
     tags:
       - Special aspects in the NHS Context
     definition: |-
-      By default, patients are included in the system. But if you don't want your private information to be shared, you can choose to opt-out using the National Data Opt-out in England and Wales.
-      The NHS National Data Opt-Out allows you say 'no' to sharing your personal information for things like research without asking you first. This comes from the NHS Act Section 251 and the requirements outlined in the UK GDPR and Data Protection Act.
-      When you decide to opt-out, your personal information remains exclusively for your medical care.
+      The NHS National Data Opt-Out in England and Wales allows individuals to say 'no' to sharing their personal information for things like research without asking them first. This comes from the NHS Act Section 251 and the requirements outlined in the UK GDPR and Data Protection Act. By default, patients are included in the system. But if someone doesn't want their private information to be shared, they can choose to opt-out using the National Data Opt-out; their personal information remains exclusively for their medical care.
   - term: Natural Language Processing (NLP)
     tags:
       - Analysis
     definition: |-
-      NLP is a field of artificial intelligence (AI) that enables computer software to analyse, interpret, and generate human language. NLP allows machines to extract meaningful information from text, identify key details, uncover patterns, and detect trends within large volumes of text data, but faces challenges because words can have different meanings depending on their context, and the software cannot understand emotions or the intentions behind why certain words were chosen. Examples of NLP in the TRE space include: identifying symptoms, diagnoses and treatments in electronic health records; identifying references to mental health concerns such as suicidial thoughts, self-harm, or changes in mode from clinicians notes; and programs to automatically identify patients based on eligibility criteria for research studies or clinical trials, employment history or status over time, or students' academic progression over time.
+      A field of artificial intelligence (AI) that enables computer software to analyse, interpret, and generate human language. NLP allows machines to extract meaningful information from text, identify key details, uncover patterns, and detect trends within large volumes of text data, but faces challenges because words can have different meanings depending on their context, and the software cannot understand emotions or the intentions behind why certain words were chosen. Examples of NLP in the TRE space include: identifying symptoms, diagnoses and treatments in electronic health records; identifying references to mental health concerns such as suicidial thoughts, self-harm, or changes in mode from clinicians notes; and programs to automatically identify patients based on eligibility criteria for research studies or clinical trials, employment history or status over time, or students' academic progression over time.
   - term: On-premises
     tags:
       - Computing
     definition: |-
       Also "on-prem". See [Cloud Computing].
-  - term: Opt in
+  - term: Opt In
     tags:
       - Health Research
     definition: |-
       An active choice, made by a participant or individual to be involved "in" research or provide their data for a research project. This is not a passive action, and cannot include individuals who have automatically been included.
-  - term: Opt out
+  - term: Opt Out
     tags:
       - Health Research
     definition: |-
@@ -621,7 +612,7 @@ glossary:
     tags:
       - Health Research
     definition: |
-      Patients and the public are included in the decision-making process within a piece of work or research. By providing their own insights and advice from personal experience they can offer unique and valuable perspectives throughout the planning, development and implementation stages. 
+      A process by which patients and the public are included in the decision-making process within a piece of work or research. By providing their own insights and advice from personal experience they can offer unique and valuable perspectives throughout the planning, development and implementation stages. 
       See also: [Patient and Public Engagement (PPE)]
   - term: Peer Review
     tags:
@@ -633,14 +624,8 @@ glossary:
       - Data in general
     definition: |-
       UK data protection regulation defines personal data as any piece of information that someone can use to identify, with some degree of accuracy, a living person. It is also something which can confirm your physical presence somewhere.
-      - A name and surname
-      - A home address
-      - An email address
-      - An identification card number
-      - Location data
-      - An Internet Protocol (IP) address
-      - The advertising identifier of your phone
-      Personal data can also be sensitive (or Special Category data). For more information see Sensitive Data.
+      Examples of personal data would be: a name and surname; a home address; an email address; an identification card number; location data; an Internet Protocol (IP) address; the advertising identifier of your phone.
+      Personal data can also be sensitive (or "Special Category Data"): see [Sensitive Data].
   - term: Principal Investigator (PI)
     tags:
       - Running and overseeing research
@@ -655,13 +640,13 @@ glossary:
     tags:
       - Identifiability
     definition: |-
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml
-      See also: https://ico.org.uk/media/1061/anonymisation-code.pdf
+      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml
+      See: https://ico.org.uk/media/1061/anonymisation-code.pdf
   - term: Public Benefit
     tags:
       - Health Research
     definition: |
-      Also known as ‘public good’, research or activity which is motivated by its benefit to society. This work often aims to provide evidence for public policies, services or decisions to ultimately improve lives.
+      Also known as "public good", research or activity which is motivated by its benefit to society. This work often aims to provide evidence for public policies, services or decisions to ultimately improve lives.
       Example: health data research to learn more about the causes, characteristics, or effects of a disease or condition, and how to best treat it, to improve health and care of patients and the public.
   - term: Public Cloud
     tags:
@@ -723,7 +708,6 @@ glossary:
       - Data in general
     definition: |-
       UK Data Protection Regulaiton (UK GDPR) defines sensitive data as Special Category Data and is subject to specific processing conditions under the UK GDPR: personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs; trade-union membership; genetic data, biometric data processed solely to identify a human being; health-related data; data concerning a person’s sex life or sexual orientation.
-
       Commercial data such as retail information, business details, IP (intellectual property) and Copyright information or confidential product details is also be considered sensitive data.
 
       Data sensitivity is be classified at an institutional level within policy documents (e.g. highly confidential, confidential, not classified) with handling requirements and placed on the different levels of confidetiality required. See [Personal Data]
@@ -790,14 +774,12 @@ glossary:
       - Data in general
     definition: |-
       Personal data used for secondary purposes (such as research) where a specific, demonstrated public benefit is proven, usually with Article 6 and Article 9 in the General Data Protection Regulations as the legal basis for undertaking that secondary use of that data (as opposed to individual consent).
-
       See also: [Consent]
   - term: Unstructured Data
     tags:
       - Data in general
     definition: |-
       Personal data used for secondary purposes (such as research) where a specific, demonstrated public benefit is proven, usually with Article 6 and Article 9 in the General Data Protection Regulations as the legal basis for undertaking that secondary use of that data (as opposed to individual consent).
-
       See also: [Consent] [European Union (EU) General Data Protection Regulation (GDPR)]
   - term: User Documentation
     tags:
