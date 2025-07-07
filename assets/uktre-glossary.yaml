@@ -422,12 +422,12 @@ glossary:
     tags:
       - Computing
     definition: |
-      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml
+      See: [:link: Federated Identity](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml)
   - term: Federated Learning
     tags:
       - Computing
     definition: |-
-      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml
+      See: [:link: Federated Learning](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml)
   - term: Federation Operator
     tags:
       - Management
@@ -443,13 +443,13 @@ glossary:
       - Security Management
     definition: |-
       A security device—either hardware, software, or a combination of both—that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Its primary purpose is to establish a barrier between a trusted, secure internal network and untrusted external networks, like the internet, to protect against unauthorized access, cyberattacks, and other potential threats.
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_23.xml
+      See also: [:link: Firewall](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_23.xml)
   - term: Five Safes
     tags:
       - Processes
     definition: |-
       The Five Safes framework is a set of principles developed to guide researchers and organizations in handling sensitive data.
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_26.xml
+      See also: [:link: Five Safes](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_26.xml)
   - term: Graphical User Interface (GUI)
     tags:
       - Computing
@@ -461,13 +461,13 @@ glossary:
       - Identifiability
     definition: |-
       Data that can be used to identify, contact, or locate a specific individual, either by itself or when combined with other available information. This includes direct identifiers like full names, NHS numbers, and email addresses; indirect identifiers such as date of birth or workplace that could identify someone when combined; and context-dependent identifiers like IP addresses or device IDs. For example, while a person's age alone might not identify them, combining it with their job title and city of residence could make them identifiable – such as "a 45-year-old pediatric surgeon in Bolton, Greater Manchester" might be specific enough to identify a particular individual, even without naming them directly. This type of data requires special handling under various privacy regulations like GDPR to protect individuals' privacy and prevent unauthorized access or misuse.
-      See also: https://terms.codata.org/rdmt/direct-identifier and https://terms.codata.org/rdmt/indirect-identifier
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml
+      See also: [:link: Indirect Identifier](https://terms.codata.org/rdmt/direct-identifier and https://terms.codata.org/rdmt/indirect-identifier)
+      See also: [:link: Identifiable Data](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml)
   - term: Identity and Access Management Services
     tags:
       - Security Management
     definition: |-
-      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml
+      See: [:link: Identity Management](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml)
   - term: Identity Verification
     tags:
       - Security Management
@@ -500,7 +500,7 @@ glossary:
       - Computing
     definition: |-
       The ability of two or more systems, devices, or applications to exchange and use information seamlessly. Interoperability enables these systems to work together, often through the adoption of open standards, that facilitate consistent communication and data sharing without requiring custom intergration. Good interoperability promotes collaboration, scalability, and the extension of services by allowing different systems to work together in a standarised, vendor-neutral way, thereby reducing techinal and operational barriers.
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_65.xml
+      See also: [:link: Interoperability](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_65.xml)
   - term: Issue Management Process
     tags:
       - Computing
@@ -516,8 +516,8 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      Under UK data protection law and the UK GDPR, organisations must have a defined lawful basis to hold and use ‘personal data’. The Health Research Authority (HRA) and Information Commissioner’s Office (ICO) advise that for almost all research conducted in the UK organisations should rely on either: (1) ‘Task in public interest’ – for all public bodies (NHS / HSC, Universities, UKRI etc), or (2) ‘Legitimate interest’ – for non-public bodies (charities etc.)
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-L_3.xml
+      Under UK data protection law and the UK GDPR, organisations must have a defined lawful basis to hold and use "personal data". The Health Research Authority (HRA) and Information Commissioner’s Office (ICO) advise that for almost all research conducted in the UK organisations should rely on either: (1) ‘Task in public interest’ – for all public bodies (NHS / HSC, Universities, UKRI etc), or (2) ‘Legitimate interest’ – for non-public bodies (charities etc.)
+      See also: [:link: Lawful Basis](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-L_3.xml)
   - term: Linkage of data (data linkage)
     tags:
       - Processes
@@ -535,7 +535,7 @@ glossary:
     definition: |-
       A computer programming technique particularly suited to identifying patterns or rules in large amounts of data. Rather than beginning with a fixed set of rules, an ML program builds up  ("learns") a set of likely rules by processing many example datasets (this stage of ML is known as "training"). When the set of likely rules is complete, the ML program can apply them to new datasets and offer a likely prediction (this stage is known as "inference").
       For example: an ML program trained to recognise car numberplates would be trained on many pictures of car numberplates, building up a set of likely rules that will enable to program to "recognise" car numberplates in the future.
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-M_2.xml
+      See also: [:link: Machine Learning (ML)](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-M_2.xml)
   - term: Malware Scanning Application
     tags:
       - Security Management
@@ -627,8 +627,8 @@ glossary:
     tags:
       - Identifiability
     definition: |-
-      See: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml
-      See: https://ico.org.uk/media/1061/anonymisation-code.pdf
+      See: [:link: Pseudonymisation](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml)
+      See also: [:link: Anonymisation and pseudonymisation](https://ico.org.uk/media/1061/anonymisation-code.pdf)
   - term: Public Benefit
     tags:
       - Health Research
@@ -666,7 +666,7 @@ glossary:
       - Data in general
     definition: |-
       An organised collectiom of data, where data are related to each other in a systematic manner so that they can be reorganised and accessed in a number of different ways. A relational database may house one or many datasets.
-      See also: https://vocabs.ardc.edu.au/repository/api/lda/codata/codata-research-data-management-terminology/v001/resource?uri=https%3A%2F%2Fterms.codata.org%2Frdmt%2Fdatabase
+      See also: [:link: Database](https://vocabs.ardc.edu.au/repository/api/lda/codata/codata-research-data-management-terminology/v001/resource?uri=https%3A%2F%2Fterms.codata.org%2Frdmt%2Fdatabase)
   - term: Research Approvals
     tags:
       - Running and overseeing research
@@ -682,7 +682,7 @@ glossary:
       - Risk Management
     definition: |-
       The systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
-      See also: https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-R_69.xml
+      See also: [:link: Risk Assessment](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-R_69.xml)
   - term: Routinely Collected Data
     tags:
       - Health Services & Health Data
