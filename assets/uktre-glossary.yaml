@@ -15,7 +15,7 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      See: [🔗 Administrative data](https://www.adruk.org/learning-hub/glossary/).
+      See: [Administrative data 🔗](https://www.adruk.org/learning-hub/glossary/).
   - term: Algorithm
     tags:
       - Computing
@@ -26,7 +26,7 @@ glossary:
       - Computing
     definition: |-
       Also Data Analysis. Techniques that produce knowledge from organised information. Processes of inspecting, cleaning, transforming, and modelling data with the goal of highlighting useful information, suggesting conclusions and supporting decision making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, in different business, science, and social science domains.
-      See also: [🔗 Data Analysis](https://terms.codata.org/rdmt/data-analysis).
+      See also: [Data Analysis 🔗](https://terms.codata.org/rdmt/data-analysis).
   - term: Anonymisation
     tags:
       - Identifiability
@@ -91,7 +91,7 @@ glossary:
     definition: |-
       Authorisation is a process of verifying that a person or other agent can legitimately take some action, such as gaining access to a dataset, editing a document, entering a building or making a payment. An administrative authority must determine whether there are sufficient grounds for authorising the action. Authorisation is often shortened to "AuthZ" to disntinguish it from authentication.
       See also: [AAI]; [Access Control]; [Authentication].
-      See also: [🔗 Authorisation](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-A_79.xml).
+      See also: [Authorisation 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-A_79.xml).
   - term: Best Practice
     tags:
       - Processes
@@ -175,7 +175,7 @@ glossary:
     tags:
       - Security Management
     definition: |-
-      Related to: [🔗 Compliance](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-C_42.xml).
+      Related to: [Compliance 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-C_42.xml).
   - term: Consent
     tags:
       - Processes
@@ -196,13 +196,13 @@ glossary:
     tags:
       - Data in general
     definition: |-
-      See: [🔗 Data](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_3.xml) and [🔗 Data](https://terms.codata.org/rdmt/data) and [🔗 Data](https://www.nice.org.uk/Glossary?letter=D).
+      See: [Data 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_3.xml) and [Data 🔗](https://terms.codata.org/rdmt/data) and [Data 🔗](https://www.nice.org.uk/Glossary?letter=D).
   - term: Data Archiving
     tags:
       - Data Management
     definition: |-
       The practice of securely storing and preserving data in a read-only format for long-term retention, typically for compliance, historical reference, or reproducibility. 
-      See also: [🔗 Data Management](https://terms.codata.org/rdmt/research-data-management).
+      See also: [Data Management 🔗](https://terms.codata.org/rdmt/research-data-management).
   - term: Data Classification
     tags:
       - Data Management
@@ -214,16 +214,16 @@ glossary:
     definition: |-
       A data controller is a person or organisation who decides how personal data, which is information about identifiable individuals, is used or handled. Examples of data controllers include NHS organisations like Trusts and GP surgeries, or devolved government bodies. In the UK, most organisations handling personal data must register with the ICO (Information Commissioner's Office), and their details are public. Data controllers are legally responsible for how data is managed. They must prevent misuse, report breaches, and can be fined for failing to meet these duties.
       See also: [Data Processor]; [Information Commissioner's Office (ICO)].
-      See also: [🔗 Data Controller](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_16.xml).
-      See also: [🔗 Data Controller](https://www.adruk.org/learning-hub/glossary/).
-      See also: [🔗 Data Controller](https://www.nice.org.uk/Glossary?letter=D).
+      See also: [Data Controller 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_16.xml).
+      See also: [Data Controller 🔗](https://www.adruk.org/learning-hub/glossary/).
+      See also: [Data Controller 🔗](https://www.nice.org.uk/Glossary?letter=D).
   - term: Data Curation
     tags:
       - Data in general
     definition: |-
-      See: [🔗 Data Curation](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_17.xml).
-      See: [🔗 Data Curation](https://terms.codata.org/rdmt/data-curation).
-      See: [🔗 Data Curation](https://www.nice.org.uk/Glossary?letter=D).
+      See: [Data Curation 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_17.xml).
+      See: [Data Curation 🔗](https://terms.codata.org/rdmt/data-curation).
+      See: [Data Curation 🔗](https://www.nice.org.uk/Glossary?letter=D).
   - term: Data Custodian
     tags:
       - Data Management
@@ -268,18 +268,18 @@ glossary:
     tags:
       - Data Management
     definition: |-
-      See: [🔗 Data Management](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml).
+      See: [Data Management 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml).
   - term: Data Mining
     tags:
       - Data in general
     definition: |-
-      See: [🔗 Data Mining](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_47.xml).
-      See: [🔗 Data Mining](https://terms.codata.org/rdmt/data-mining).
+      See: [Data Mining 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_47.xml).
+      See: [Data Mining 🔗](https://terms.codata.org/rdmt/data-mining).
   - term: Data Pooling
     tags:
       - Data Management
     definition: |-
-      See: [🔗 Data Pooling](https://www.nice.org.uk/Glossary?letter=D).
+      See: [Data Pooling 🔗](https://www.nice.org.uk/Glossary?letter=D).
       See also: [Federated Analytics]; [Federated Data].
   - term: Data Processor
     tags:
@@ -312,39 +312,39 @@ glossary:
     tags:
       - UK law and rules
     definition: |-
-      See: [🔗 Data Subject](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_79.xml).
+      See: [Data Subject 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_79.xml).
   - term: Data Transfer Agreement
     tags:
       - UK law and rules
     definition: |-
       An agreement or contract between a data controller and another organisation (such as a data processor), governing the transfer of data.
       See also: [Data Controller]; [Data Processor].
-      See also: [🔗 Data Transfer](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml).
+      See also: [Data Transfer 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml).
   - term: Data Transfer Service
     tags:
       - Data Management
     definition: |-
       A service or system that facilitates the secure and efficient transfer of data between different systems, networks, or locations.
-      See also: [🔗 Data Transfer](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml).
-      See also: [🔗 Data Transfer](https://w3id.org/shp#DataTransfer).
+      See also: [Data Transfer 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_82.xml).
+      See also: [Data Transfer 🔗](https://w3id.org/shp#DataTransfer).
   - term: Data Users
     tags:
       - Data in general
     definition: |-
-      See: [🔗 Data User](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_85.xml).
+      See: [Data User 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_85.xml).
   - term: Database
     tags:
       - Data in general
     definition: |-
       See also: [Relational Database].
-      See: [🔗 Database](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_8.xml).
-      See: [🔗 Database](https://terms.codata.org/rdmt/database).
+      See: [Database 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_8.xml).
+      See: [Database 🔗](https://terms.codata.org/rdmt/database).
   - term: De-identification
     tags:
       - Identifiability
     definition: |-
-      See: [🔗 De-identification](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_101.xml).
-      See: [🔗 De-identification](https://terms.codata.org/rdmt/de-identification).
+      See: [De-identification 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_101.xml).
+      See: [De-identification 🔗](https://terms.codata.org/rdmt/de-identification).
   - term: Desktop
     tags:
       - Computing
@@ -361,8 +361,8 @@ glossary:
     definition: |-
       The process of review by approved staff at a Trusted Research Environment (TRE) of any research or analysis results prior to their release from the TRE. The aim of disclosure control is to ensure there are no risks of identifying individuals in any released research results.
       See also: [Egress/Ingress Control].
-      Related to: [🔗 Disclosure Control Methods](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_142.xml).
-      Related to: [🔗 Disclosure Check](https://w3id.org/shp#DisclosureCheck).
+      Related to: [Disclosure Control Methods 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_142.xml).
+      Related to: [Disclosure Check 🔗](https://w3id.org/shp#DisclosureCheck).
   - term: Egress/Ingress Control
     tags:
       - Security Management
@@ -399,8 +399,8 @@ glossary:
       *Accessible*: Retrievable through standard methods, even if authentication is needed.
       *Interoperable*: Can work across different systems and with other datasets.
       *Reusable*: Well-documented and properly licensed so others can use it.
-      See also: [🔗 FAIR Data](https://terms.codata.org/rdmt/fair-data).
-      See also: [🔗 FAIR Data](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_3.xml).
+      See also: [FAIR Data 🔗](https://terms.codata.org/rdmt/fair-data).
+      See also: [FAIR Data 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_3.xml).
   - term: Federation
     tags:
       - Processes
@@ -423,12 +423,12 @@ glossary:
     tags:
       - Computing
     definition: |
-      See: [🔗 Federated Identity](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml).
+      See: [Federated Identity 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_15.xml).
   - term: Federated Learning
     tags:
       - Computing
     definition: |-
-      See: [🔗 Federated Learning](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml).
+      See: [Federated Learning 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_16.xml).
   - term: Federation Operator
     tags:
       - Management
@@ -444,13 +444,13 @@ glossary:
       - Security Management
     definition: |-
       A security device—either hardware, software, or a combination of both—that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Its primary purpose is to establish a barrier between a trusted, secure internal network and untrusted external networks, like the internet, to protect against unauthorized access, cyberattacks, and other potential threats.
-      See also: [🔗 Firewall](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_23.xml).
+      See also: [Firewall 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_23.xml).
   - term: Five Safes
     tags:
       - Processes
     definition: |-
       The Five Safes framework is a set of principles developed to guide researchers and organizations in handling sensitive data.
-      See also: [🔗 Five Safes](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_26.xml).
+      See also: [Five Safes 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_26.xml).
   - term: Graphical User Interface (GUI)
     tags:
       - Computing
@@ -462,14 +462,14 @@ glossary:
       - Identifiability
     definition: |-
       Data that can be used to identify, contact, or locate a specific individual, either by itself or when combined with other available information. This includes direct identifiers like full names, NHS numbers, and email addresses; indirect identifiers such as date of birth or workplace that could identify someone when combined; and context-dependent identifiers like IP addresses or device IDs. For example, while a person's age alone might not identify them, combining it with their job title and city of residence could make them identifiable – such as "a 45-year-old pediatric surgeon in Bolton, Greater Manchester" might be specific enough to identify a particular individual, even without naming them directly. This type of data requires special handling under various privacy regulations like GDPR to protect individuals' privacy and prevent unauthorized access or misuse.
-      See also: [🔗 Direct Identifier](https://terms.codata.org/rdmt/direct-identifier).
-      See also: [🔗 Indirect Identifier](https://terms.codata.org/rdmt/indirect-identifier).
-      See also: [🔗 Identifiable Data](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml).
+      See also: [Direct Identifier 🔗](https://terms.codata.org/rdmt/direct-identifier).
+      See also: [Indirect Identifier 🔗](https://terms.codata.org/rdmt/indirect-identifier).
+      See also: [Identifiable Data 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_5.xml).
   - term: Identity and Access Management Services
     tags:
       - Security Management
     definition: |-
-      See: [🔗 Identity Management](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml).
+      See: [Identity Management 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_18.xml).
   - term: Identity Verification
     tags:
       - Security Management
@@ -502,7 +502,7 @@ glossary:
       - Computing
     definition: |-
       The ability of two or more systems, devices, or applications to exchange and use information seamlessly. Interoperability enables these systems to work together, often through the adoption of open standards, that facilitate consistent communication and data sharing without requiring custom intergration. Good interoperability promotes collaboration, scalability, and the extension of services by allowing different systems to work together in a standarised, vendor-neutral way, thereby reducing techinal and operational barriers.
-      See also: [🔗 Interoperability](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_65.xml).
+      See also: [Interoperability 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-I_65.xml).
   - term: Issue Management Process
     tags:
       - Computing
@@ -519,7 +519,7 @@ glossary:
       - UK law and rules
     definition: |-
       Under UK data protection law and the UK GDPR, organisations must have a defined lawful basis to hold and use "personal data". The Health Research Authority (HRA) and Information Commissioner’s Office (ICO) advise that for almost all research conducted in the UK organisations should rely on either: (1) ‘Task in public interest’ – for all public bodies (NHS / HSC, Universities, UKRI etc), or (2) ‘Legitimate interest’ – for non-public bodies (charities etc.)
-      See also: [🔗 Lawful Basis](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-L_3.xml).
+      See also: [Lawful Basis 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-L_3.xml).
   - term: Linkage of data (data linkage)
     tags:
       - Processes
@@ -537,7 +537,7 @@ glossary:
     definition: |-
       A computer programming technique particularly suited to identifying patterns or rules in large amounts of data. Rather than beginning with a fixed set of rules, an ML program builds up  ("learns") a set of likely rules by processing many example datasets (this stage of ML is known as "training"). When the set of likely rules is complete, the ML program can apply them to new datasets and offer a likely prediction (this stage is known as "inference").
       For example: an ML program trained to recognise car numberplates would be trained on many pictures of car numberplates, building up a set of likely rules that will enable to program to "recognise" car numberplates in the future.
-      See also: [🔗 Machine Learning (ML)](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-M_2.xml).
+      See also: [Machine Learning (ML) 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-M_2.xml).
   - term: Malware Scanning Application
     tags:
       - Security Management
@@ -629,8 +629,8 @@ glossary:
     tags:
       - Identifiability
     definition: |-
-      See: [🔗 Pseudonymisation](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml).
-      See also: [🔗 Anonymisation and pseudonymisation](https://ico.org.uk/media/1061/anonymisation-code.pdf).
+      See: [Pseudonymisation 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml).
+      See also: [Anonymisation and pseudonymisation 🔗](https://ico.org.uk/media/1061/anonymisation-code.pdf).
   - term: Public Benefit
     tags:
       - Health Research
@@ -669,7 +669,7 @@ glossary:
     definition: |-
       An organised collectiom of data, where data are related to each other in a systematic manner so that they can be reorganised and accessed in a number of different ways. A relational database may house one or many datasets.
       See also: [Database].
-      See also: [🔗 Database](https://terms.codata.org/rdmt/database).
+      See also: [Database 🔗](https://terms.codata.org/rdmt/database).
   - term: Research Approvals
     tags:
       - Running and overseeing research
@@ -685,7 +685,7 @@ glossary:
       - Risk Management
     definition: |-
       The systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
-      See also: [🔗 Risk Assessment](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-R_69.xml).
+      See also: [Risk Assessment 🔗](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-R_69.xml).
   - term: Routinely Collected Data
     tags:
       - Health Services & Health Data
