@@ -1,3 +1,4 @@
+export PYTHONPATH := plugins/mkdocs-uktre-glossary-plugin/src:$(PYTHONPATH)
 
 pre-build:
 	python ./plugins/create_category_pages.py
