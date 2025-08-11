@@ -19,10 +19,42 @@ def _slugify(s: str):
     return re.sub(r"\W", "-", s.lower())
 
 def link_urls(s: str):
+    # Convert bare URLs to links
     trailing_punctuation = ".,!?)]}>'\""
-    s = re.sub(rf"(https?://[\S]+)", r"[\1](\1)", s)
+    s = re.sub(
+        r"""
+            (?<!\]\()  # Negative lookbehind: Not preceded by ](
+            (https?://[\S]+)
+        """,
+        r"[\1](\1)",
+        s,
+        flags=re.VERBOSE,
+    )
     s.rstrip(trailing_punctuation)
     return s
+
+def _external_url_icons(text):
+    # Find [...](...)
+    # If URL is absolute (http/https) add an external link icon
+    matches = re.findall(
+        r"""
+            (
+                \[
+                    ([^]]+)  # Link text
+                \]
+                \(
+                    (https?://[^]]+)  # Target
+                \)
+            )
+        """,
+        text,
+        re.VERBOSE,
+    )
+
+    for match, link_text, link in matches:
+        link_md = f"[{link_text} 🔗]({link})"
+        text = text.replace(match, link_md)
+    return text
 
 def _crossref_terms(text, parent):
     # Find [...] but not [...](...)
@@ -77,7 +109,8 @@ def to_glossary_html(df, category="", **kwargs):
             tags = f"<td>{tags}</td>"
             parent = ""
 
-        crossreferenced = _crossref_terms(link_urls(row.definition), parent)
+        external_urls_iconified = _external_url_icons(link_urls(row.definition))
+        crossreferenced = _crossref_terms(external_urls_iconified, parent)
         # Convert markdown to HTML
         definition = markdown(
             # Escape HTML chars
