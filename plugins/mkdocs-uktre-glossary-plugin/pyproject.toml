@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=70.0", "setuptools-scm>=8.0"]
+requires = ["setuptools>=70.0"]
 build-backend = "setuptools.build_meta"
 
 [project.entry-points."mkdocs.plugins"]
@@ -24,7 +24,9 @@ classifiers=[
     "Programming Language :: Python :: 3",
 ]
 
-dynamic = ["version"]
+# Internal use only
+version = "0.0.0"
+
 dependencies = [
     "mkdocs>=1.6.1",
     "pandas>=2.2.3",
@@ -35,7 +37,7 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/TODO/TODO"
+"Homepage" = "https://github.com/uk-tre/glossary/tree/main/plugins/mkdocs-uktre-glossary-plugin"
 
 [tool.setuptools.dynamic]
 version = {attr = "mkdocs_uktre_glossary_plugin.__version__"}
