@@ -37,7 +37,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      The process of installing, configuring, and making software applications available for use within a given enviornment (eg, a [TRE]).
+      The process of installing, configuring, and making software applications available for use within a given environment (eg, a [Trusted Research Environment (TRE)]).
   - term: Application Programming Interface (API)
     tags:
       - Computing
@@ -54,7 +54,7 @@ glossary:
     definition: |-
       A branch of computer science that aims to create technology and systems that perform tasks and make decisions in ways that resemble human intelligence. AI systems can be built in various ways, with the most common current method being Machine Learning.
       Examples: A chess-playing computer program is an example of a specialised AI system (it can play chess, but nothing else). The programs inside a modern robot that can climb stairs and walk over uneven ground is an example of a more general AI system.
-      See also: [Machine Learning].
+      See also: [Machine Learning (ML)].
   - term: Asset Management Process
     tags:
       - Management
@@ -418,7 +418,7 @@ glossary:
       - Computing
     definition: |-
       A model of data access in which different organizations keep full control of their own data but agree on ways to safely share access to it for specific purposes. Each organization maintains its own data security and rules, but allows approved users to work with the data through agreed-upon tools and systems. For example, research institutions might share access to their datasets while keeping the data within their own secure environments, allowing collaborative research without moving sensitive data to a central location.
-      See also: [Data Pooling]; [Federated​ Analytics].
+      See also: [Data Pooling]; [Federated Analytics].
   - term: Federated Identity Mapping
     tags:
       - Computing
@@ -456,7 +456,7 @@ glossary:
       - Computing
     definition: |-
       A way of interacting with a computer system based on visual presentations of documents, applications and so on as windows on a screen. Users interact with a GUI using pointing devices (e.g. a mouse or a finger) rather than having to type everything. 
-      Contrast with: [Command Line Interface].
+      Contrast with: [Command Line Interface (CLI)].
   - term: Identifiable Data
     tags:
       - Identifiability
@@ -787,7 +787,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      See [Graphical User Interface]; [Command Line Interface].
+      See [Graphical User Interface (GUI)]; [Command Line Interface (CLI)].
   - term: User Onboarding
     tags:
       - Computing
