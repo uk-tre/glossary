@@ -268,7 +268,7 @@ glossary:
     tags:
       - Data Management
     definition: |-
-      See: [Data Management](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml).
+      See: [Data Minimisation](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_45.xml).
   - term: Data Mining
     tags:
       - Data in general
@@ -400,7 +400,7 @@ glossary:
       *Interoperable*: Can work across different systems and with other datasets.
       *Reusable*: Well-documented and properly licensed so others can use it.
       See also: [FAIR Data](https://terms.codata.org/rdmt/fair-data).
-      See also: [FAIR Data](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_3.xml).
+      See also: [FAIR](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-F_3.xml).
   - term: Federation
     tags:
       - Processes
