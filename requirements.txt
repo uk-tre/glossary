@@ -87,7 +87,7 @@ pyyaml==6.0.2
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
-requests==2.32.3
+requests==2.32.4
     # via mkdocs-material
 six==1.17.0
     # via python-dateutil
@@ -97,7 +97,7 @@ tabulate==0.9.0
     #   mkdocs-uktre-glossary-plugin
 tzdata==2025.2
     # via pandas
-urllib3==2.4.0
+urllib3==2.5.0
     # via requests
 watchdog==6.0.0
     # via mkdocs
