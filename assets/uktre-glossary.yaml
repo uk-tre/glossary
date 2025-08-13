@@ -407,7 +407,7 @@ glossary:
     definition: |-
       A grouping of organisations with their own policies and assets (e.g. datasets or computing resources) who agree to allow use of those assets by the broader group but without the assets leaving control or ownership of the organisation.
       Ordinary real-world examples of this are the United States of America, Germany or Australia, where member states have individual laws and governance but also subscribe to central policies to enable and encourage working together. 
-  - term: Federated​ Analytics
+  - term: Federated Analytics
     tags:
       - Computing
     definition: |-
