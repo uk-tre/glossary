@@ -600,7 +600,7 @@ glossary:
     tags:
       - computing
     definition: |-
-      This zone manages the deployment and maintenance of infrastructure and the configuration of the TRE. This zone contains no research data and is not be accessible to any researcher/project role. Infrastructure management roles operate within this zone.
+      The zone managing the deployment and maintenance of infrastructure and the configuration of the TRE. This zone contains no research data and is not be accessible to any researcher/project role. Infrastructure management roles operate within this zone.
       See also: [zone].
   - term: Patient and Public Engagement (PPE)
     tags:
@@ -674,7 +674,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      This zone handles queries sent to the TRE from other, remote TREs or external Job Submission services. Typically it sits alongside an SDZ and provides different methods of access to approved research-ready datasets stored within the [Secure Data Zone (SDZ)] .
+      The zone handling queries sent to the TRE from other, remote TREs or external Job Submission services. Typically it sits alongside an [Research Analytics Zone (RAZ)] and provides different methods of access to approved research-ready datasets stored within the [Secure Data Zone (SDZ)] .
       See also: [zone].
   - term: Registry 
     tags:
@@ -692,7 +692,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      This zone provides the means for a researcher to gain direct access to the data their project is approved to use, in an environment suitable for the analyses their research requires. This is often realised as a virtual desktop environment, a computational notebook or similar. There is often a strict requirement that project environments be completely isolated from one another.
+      The zone providing the means for a researcher to gain direct access to the data their project is approved to use, in an environment suitable for the analyses their research requires. This is often realised as a virtual desktop environment, a computational notebook or similar. There is often a strict requirement that project environments be completely isolated from one another.
       See also: [zone].      
   - term: Research Approvals
     tags:
@@ -723,7 +723,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      This zone supports the ingress, egress, management, linkage, curation and provision of research-ready sensitive datasets. TRE Governance actors with roles Data Manager and Output Approver SHALL be granted access to the SDZ; all other roles SHALL NOT be granted access.
+      Zone supporting the ingress, egress, management, linkage, curation and provision of research-ready sensitive datasets. Governance roles and Data Managers operate in the the SDZ.
       See also: [zone].
   - term: Sensitive Data
     tags:
