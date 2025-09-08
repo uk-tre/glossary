@@ -345,6 +345,12 @@ glossary:
     definition: |-
       See: [De-identification](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-D_101.xml).
       See: [De-identification](https://terms.codata.org/rdmt/de-identification).
+  - term: Demilitarized Zone (DMZ)
+    tags:
+      - computing
+    definition: |-
+      A physical or logical subnetwork that separates an internal TRE network from untrusted external networks, such as the internet.  
+      see also: [zone]
   - term: Desktop
     tags:
       - Computing
@@ -590,6 +596,12 @@ glossary:
       - Health Research
     definition: |-
       An active choice, made by a participant or individual to not be be involved in research or provide their data for a research project. This can include idividuals who choose to not be included, or withdraw their consent to their data being included and are therefore excluded or "out" of any analyses of the data.
+  - term: Orchestration Zone (OZ)
+    tags:
+      - computing
+    definition: |-
+      This zone manages the deployment and maintenance of infrastructure and the configuration of the TRE. This zone contains no research data and is not be accessible to any researcher/project role. Infrastructure management roles operate within this zone.
+      See also: [zone].
   - term: Patient and Public Engagement (PPE)
     tags:
       - Health Research
@@ -658,6 +670,12 @@ glossary:
       - Analysis
     definition: |-
       Analysis using numbers means studying data by focusing on quantities and measurements. This involves using mathematical and statistical methods to analyse and interpret the information. Researchers look at numerical values, such as counts, percentages, averages, or correlations, to gain insights and draw conclusions from the data. This type of analysis allows for objective and quantitative assessment of trends, patterns, and relationships within the data.
+  - term: Query Management Zone (QMZ)
+    tags:
+      - Computing
+    definition: |-
+      This zone handles queries sent to the TRE from other, remote TREs or external Job Submission services. Typically it sits alongside an SDZ and provides different methods of access to approved research-ready datasets stored within the [Secure Data Zone (SDZ)] .
+      See also: [zone].
   - term: Registry 
     tags:
       - Computing
@@ -670,11 +688,19 @@ glossary:
       An organised collectiom of data, where data are related to each other in a systematic manner so that they can be reorganised and accessed in a number of different ways. A relational database may house one or many datasets.
       See also: [Database].
       See also: [Database](https://terms.codata.org/rdmt/database).
+  - term: Research Analytics Zone (RAZ)
+    tags:
+      - Computing
+    definition: |-
+      This zone provides the means for a researcher to gain direct access to the data their project is approved to use, in an environment suitable for the analyses their research requires. This is often realised as a virtual desktop environment, a computational notebook or similar. There is often a strict requirement that project environments be completely isolated from one another.
+      See also: [zone].      
   - term: Research Approvals
     tags:
       - Running and overseeing research
     definition: |-
       All research that involves data from individuals must get approval from an authorised body. For research with NHS data, for example, this would be the NHS Research Ethics Committee (REC). Approvals committees often include both researchers and members of the public, and their job is to make sure that the research is planned and conducted in a fair and ethical way and that it benefits the public.
+  
+  
   - term: Researcher(s)
     tags:
       - Other
@@ -693,6 +719,12 @@ glossary:
       Data, often about people, collected by health, social, or school services during their everyday tasks, like doctor visits or school days. This is also known as "routinely collected data" or "real-world data."
       This data is not specifically gathered for research purposes. 
       For example routinely collected health data includes details about a patient's medical history, diagnoses, treatments, medications, etc. 
+  - term: Secure Data Zone (SDZ)
+    tags:
+      - Computing
+    definition: |-
+      This zone supports the ingress, egress, management, linkage, curation and provision of research-ready sensitive datasets. TRE Governance actors with roles Data Manager and Output Approver SHALL be granted access to the SDZ; all other roles SHALL NOT be granted access.
+      See also: [zone].
   - term: Sensitive Data
     tags:
       - Data in general
@@ -804,4 +836,12 @@ glossary:
       - Computing
     definition: |-
       Specifically a *computational workflow* is a set of chained operations used to carry out a particular analysis or other computational task. Workflows simplify complex sequences of activities and enable researchers to automate and track the provenance of the work in workflow execution. Workflows can often be visualised as a network or tree of operations.
-
+  - term: Zone
+    tags:
+      - Computing
+    definition: |-
+      A distinct area within a TRE that has specific security, access, or functional characteristics. Zones require different levels of governance and approval for the roles accessing them, and in particular, movement of data between them should be subject to appropriate controls to manage the related disclosure risks.
+      see also: [Orchestration Zone (OZ)].
+      see also: [Query Management Zone (QMZ)].
+      see also: [Research Analytics Zone (RAZ)].
+      see also: [Secure Data Zone (SDZ)].  
