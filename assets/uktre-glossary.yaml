@@ -347,7 +347,7 @@ glossary:
       See: [De-identification](https://terms.codata.org/rdmt/de-identification).
   - term: Demilitarized Zone (DMZ)
     tags:
-      - computing
+      - Computing
     definition: |-
       A physical or logical subnetwork that separates an internal TRE network from untrusted external networks, such as the internet. The DMZ provides limited access to internal network based on trust. For example, The DMZ would contain "Security Server" described in the [DARE Federated Architecture](https://github.com/DAREUK/tre-federation/blob/main/architecture/4_Infrastructure_Layer/4_3_1_TRE.md).
       see also: [zone]
@@ -598,7 +598,7 @@ glossary:
       An active choice, made by a participant or individual to not be be involved in research or provide their data for a research project. This can include idividuals who choose to not be included, or withdraw their consent to their data being included and are therefore excluded or "out" of any analyses of the data.
   - term: Orchestration Zone (OZ)
     tags:
-      - computing
+      - Computing
     definition: |-
       The zone managing the deployment and maintenance of infrastructure and the configuration of the TRE. This zone contains no research data and is not be accessible to any researcher/project role. Infrastructure management roles operate within this zone.
       See also: [zone].
