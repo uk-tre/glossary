@@ -1,0 +1,3 @@
+# These work in a browser, but return 404 to the linkchecker
+https://w3id.org/shp#DataTransfer
+https://w3id.org/shp#DisclosureCheck
