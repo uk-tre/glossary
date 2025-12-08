@@ -674,7 +674,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      The zone handling queries sent to the TRE from other, remote TREs or external Job Submission services. Typically it sits alongside an [Research Analytics Zone (RAZ)] and provides different methods of access to approved research-ready datasets stored within the [Secure Data Zone (SDZ)] .
+      The zone handling queries sent to the TRE from other, remote TREs or external Job Submission services. Typically it sits alongside a [Research Analytics Zone (RAZ)] and provides different methods of access to approved research-ready datasets stored within the [Secure Data Zone (SDZ)] .
       See also: [zone].
   - term: Registry 
     tags:
