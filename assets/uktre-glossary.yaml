@@ -13,7 +13,7 @@ glossary:
       See also: [AAI]; [Authentication]; [Authorisation].
   - term: Actor
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       A person, organization, or system that has one or more roles that initiates or interacts with activities.
       Example: The SATRE architecture needs actors such as data analysts and internal auditors.
@@ -47,7 +47,7 @@ glossary:
       The process of installing, configuring, and making software applications available for use within a given environment (eg, a [Trusted Research Environment (TRE)]).
   - term: Application Component
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       An encapsulation of application functionality which is modular and replaceable.
       Example: To perform work within a TRE a data analyst might need access to a Desktop or command line interface application component.
@@ -62,9 +62,14 @@ glossary:
       - Computing
     definition: |-
       A number of applications, tools and other software that work in concert to form a complete software solution.
+  - term: Architecture
+    tags:
+      - Architecture
+    definition: |-
+      An architecture defines the structures and behaviours of an organisation including people, processes, data and technology. This helps build a blueprint for how organisations, people work with technology to deliver TREs.
   - term: Architectural Principle
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       Fundamental guidelines that inform the design, decision making and implementation of a TRE. These principles provide a framework to ensure that the design of the underlying components of a TRE are aligned to consistent goals, values and best practices.
       See also: [Trusted Research Environment (TRE)].
@@ -119,7 +124,7 @@ glossary:
       A set of guidelines that, if followed, is known to produce good outcomes. Best practice may be based on different levels of research evidence and/or collective experience.
   - term: Business Process
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       A set of actions which produce a specific desired outcome.
       Example: To access the TRE a data consumer needs to complete an onboarding business process.
@@ -136,13 +141,13 @@ glossary:
       A senior professional in the NHS who safeguards patient confidentiality and privacy. They are responsible for protecting patient information, including how it is used in, for example, research. Named after Dame Fiona Caldicott, the first UK National Data Guardian.
   - term: Capability
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       An ability that a system possesses. Capabilities are typically expressed in general and high-level terms. Achieving a capability typically requires a combination of organisation, people, processes, and technology.
       See also: [Capability Decomposition].
   - term: Capability Decomposition
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       A set of components that realise a capability. These components will vary depending on the nature of the capability. Business-focused capabilities will be realised by business processes, roles and services. Technology-focused capabilities will be realised by applications, services and interfaces. In addition to the components realising the capability, a catalogue of standards, frameworks and controls linked to the capabilities will provide guidance on how to implement the capabilities safely.
       See also: [Capability]; [Component]; [Business Process]; [Role]; [Application Component]. 
@@ -188,7 +193,7 @@ glossary:
       Examples: Apple's iCloud storage, Google's Drive or Microsoft OneDrive are examples of cloud storage.
   - term: Component
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       The statements concerning processes, controls, practices and applications that make up a capability, together with an importance label.
       See also: [Capability]; [Capability Decomposition].
@@ -306,7 +311,7 @@ glossary:
       The management and oversight of data throughout its lifecycle, including storage, usage, sharing, retention, and eventual disposal.
   - term: Data Object
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       A store of data or information.
       Example: To know what data is stored within the TRE a study database data object is needed. This contains information on the data assets within the TRE, who owns them and other compliance information.
@@ -740,7 +745,7 @@ glossary:
       See also: [Risk Assessment](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-R_69.xml).
   - term: Role
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       A role is a set of connected behaviors, rights, obligations and norms within a TRE system. Roles are occupied by individuals, who are called actors.
       See also: [Actor]; [Trusted Research Environment (TRE)].
@@ -767,7 +772,7 @@ glossary:
       See also: [Characteristic].
   - term: Specification Pillar
     tags:
-      - SATRE Architecture
+      - Architecture
     definition: |-
       A specification pillar is a group of related capabilities. SATRE has four specification pillars: Information governance, Computing technology, Data management and Supporting Capabilities.
       See also: [Capability].
