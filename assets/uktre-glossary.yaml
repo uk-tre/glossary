@@ -31,7 +31,7 @@ glossary:
     tags:
       - Identifiability
     definition: |-
-      The process of making personally identifiable data anonymous so that individuals can no longer be identified. In contrast to pseudonymisation, true anonymisation cannot be reversed.
+      The process of making personally identifiable data anonymous so that individuals can no longer be identified. In contrast to [Pseudonymisation], true anonymisation cannot be reversed.
       See also: [Pseudonymisation].
   - term: Application Deployment
     tags:
@@ -565,6 +565,7 @@ glossary:
       The National Data Guardian (NDG) for Health and Social Care is an independent champion for patients and the public when it comes to matters of their confidential health and social care data, and appointed by the Secretary of State for Health and Social Care by statute . To support the development and maintenance of trustworthy systems and practices, the NDG provide advice, encouragement, and challenge to the health and social care system on the safe, appropriate, and ethical use of people’s confidential health and care information.
       The NDG advise the UK government and NHS on the processing of health and adult social care data in England.  Both the Caldicott Guardian and the National Data Guardian protect patient information. The Caldicott Guardian focuses on data protection within individual healthcare organisations.
       See also: [Caldicott Guardian].
+      See also: [UK Government National Data Guardian](https://www.gov.uk/government/organisations/national-data-guardian/about)
   - term: National Data Opt-Out (NDO)
     tags:
       - Special aspects in the NHS Context
@@ -629,7 +630,9 @@ glossary:
     tags:
       - Identifiability
     definition: |-
+      The replacement of direct identifiers within a dataset with pseudonyms so that the data no longer directly identifies individuals. In contrast to [Anonymisation], pseudonymisation provides the option of reinstating the original identifiers should they be needed and also allows for the linking of datasets through the creation of common pseudonyms.
       See: [Pseudonymisation](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml).
+      See also: [Anonymisation].
       See also: [Anonymisation and pseudonymisation](https://ico.org.uk/media/1061/anonymisation-code.pdf).
   - term: Public Benefit
     tags:
