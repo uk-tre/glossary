@@ -721,7 +721,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      Zone supporting the management, linkage, curation and provision of research-ready sensitive datasets. Governance roles and Data Managers operate in the the SDZ.
+      Zone supporting the management, linkage, curation and provision of research-ready sensitive datasets. Governance roles and Data Managers operate in the SDZ.
       See also: [zone].
   - term: Sensitive Data
     tags:
