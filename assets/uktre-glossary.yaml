@@ -349,7 +349,7 @@ glossary:
     tags:
       - Computing
     definition: |-
-      A physical or logical subnetwork that separates an internal TRE network from untrusted external networks, such as the internet. The DMZ provides limited access to internal network based on trust.
+      A physical or logical subnetwork that separates an internal TRE network from untrusted external networks, such as the internet. The DMZ provides limited access to internal networks based on trust.
       see also: [zone]
   - term: Desktop
     tags:
