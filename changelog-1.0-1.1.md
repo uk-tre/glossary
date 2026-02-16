@@ -138,10 +138,14 @@ See also: [Secure Data Zone (SDZ)].
 (This was previously a placeholder.)
 
 The replacement of direct identifiers within a dataset with pseudonyms so that the data no longer directly identifies individuals. 
-In contrast to [Anonymisation], pseudonymisation provides the option of reinstating the original identifiers should they be needed and also allows for the linking of datasets through the creation of common pseudonyms.
+In contrast to [Anonymisation], pseudonymisation provides the option of reinstating the original identifiers should they be needed and also allows for the 
+linking of datasets through the creation of common pseudonyms.
 
 See: [Pseudonymisation](https://www.elgaronline.com/display/book/9781035300921/b-9781035300921-P_140.xml).
 
 See also: [Anonymisation].
 
 See also: [Anonymisation and pseudonymisation](https://ico.org.uk/media/1061/anonymisation-code.pdf).
+
+
+
