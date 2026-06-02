@@ -9,7 +9,7 @@ jobs:
   lint:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.0.2
 
       # https://github.com/j178/prek-action
       - uses: j178/prek-action@v2.0.4
@@ -17,7 +17,7 @@ jobs:
   mkdocs:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.0.2
 
       - uses: actions/setup-python@v6
         with:
