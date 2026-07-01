@@ -9,7 +9,7 @@ jobs:
   lint:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v7.0.0
 
       # https://github.com/j178/prek-action
       - uses: j178/prek-action@v2.0.4
@@ -17,7 +17,7 @@ jobs:
   mkdocs:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v7.0.0
 
       - uses: actions/setup-python@v6
         with:
@@ -28,7 +28,7 @@ jobs:
       # Cache lychee results to avoid hitting rate limits
       # https://lychee.cli.rs/github_action_recipes/caching/
       - name: Restore lychee cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6.1.0
         with:
           path: .lycheecache
           key: cache-lychee-${{ github.sha }}
