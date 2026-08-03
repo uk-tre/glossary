@@ -1,3 +1,4 @@
 # These work in a browser, but return 404 to the linkchecker
 https://w3id.org/shp#DataTransfer
 https://w3id.org/shp#DisclosureCheck
+https://www\.elgaronline\.com/display/book/9781035300921/b-9781035300921-.*\.xml
