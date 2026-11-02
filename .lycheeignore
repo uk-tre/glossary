@@ -2,3 +2,6 @@
 https://w3id.org/shp#DataTransfer
 https://w3id.org/shp#DisclosureCheck
 https://www\.elgaronline\.com/display/book/9781035300921/b-9781035300921-.*\.xml
+
+# These work in a browser, but return 403 to the linkchecker
+https://ico\.org\.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/
